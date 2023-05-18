@@ -10,193 +10,299 @@
 		<body>
 			<div>
 				<pb n="75"/>
-				<lb xml:id="pag75_line1" n="1" facs="#pag75_line1"/>
-				*Cancellatura* parte delle bande e taccio
-				<lb xml:id="pag75_line2" n="2" facs="#pag75_line2"/>
-				quelli ideali<pc>,</pc> non so come e 
-				<lb xml:id="pag75_line3" n="3" facs="#pag75_line3"/>
-				perché<pc>,</pc> ma mi vergogno di 
-				<lb xml:id="pag75_line4" n="4" facs="#pag75_line4"/>
-				parlarne<pc>,</pc> Forse tanti **Cancellatura** 
-				<lb xml:id="pag75_line5" n="5" facs="#pag75_line5"/>
-				rettorica patriottica e politica 
-				<lb xml:id="pag75_line6" n="6" facs="#pag75_line6"/>
-				inibiscono di parlare di questi 
-				<lb xml:id="pag75_line7" n="7" facs="#pag75_line7"/>
-				argomenti con fresca e sponta<pc>=</pc>
-				<lb xml:id="pag75_line8" n="8" facs="#pag75_line8"/>
-				nea semplicità<pc>.</pc> Eppure anche 
-				<lb xml:id="pag75_line9" n="9" facs="#pag75_line9"/>
-				in questo campo si fanno grandi 
-				<lb xml:id="pag75_line10" n="10" facs="#pag75_line10"/>
-				progressi<pc>,</pc> il misticismo del secolo 
-				<lb xml:id="pag75_line11" n="11" facs="#pag75_line11"/>
-				scorso<pc>,</pc> causa ed effetto insicure(<pc>?</pc>)
-				<lb xml:id="pag75_line12" n="12" facs="#pag75_line12"/>
-				del concetto romantico e mazzi<pc>=</pc>
-				<lb xml:id="pag75_line13" n="13" facs="#pag75_line13"/>
-				niano delle ragioni che hanno 
-				<lb xml:id="pag75_line14" n="14" facs="#pag75_line14"/>
-				una missione da svolgere<pc>,</pc> è
-				<lb xml:id="pag75_line15" n="15" facs="#pag75_line15"/>
-				ormai tramontato<pc>,</pc> non abbiamo<pc>,</pc>
-				<lb xml:id="pag75_line16" n="16" facs="#pag75_line16"/>
-				che io sappia<pc>,</pc> poeti della rivo<pc>=</pc>
-				<lb xml:id="pag75_line17" n="17" facs="#pag75_line17"/>
-				luzione<pc>,</pc> ma oggi nessuno oserebbe<pc>,</pc>
-				<lb xml:id="pag75_line18" n="18" facs="#pag75_line18"/>
-				in questo secolo di miscredenti<pc>,</pc> di
-				<lb xml:id="pag75_line19" n="19" facs="#pag75_line19"/>
-				*cancellato* predicare<pc>:</pc>
-				<lb xml:id="pag75_line20" n="20" facs="#pag75_line20"/>
-					L’unione e l’amore
-				<lb xml:id="pag75_line21" n="21" facs="#pag75_line21"/>
-					rivelano ai popoli
-				<lb xml:id="pag75_line22" n="22" facs="#pag75_line22"/>
-					la via del Signore *riga sopra* oppure
-
+				<ab>
+					<lb xml:id="pag75_line1" n="1" facs="#pag75_line1"/>
+					*Cancellatura* parte delle bande e taccio
+					<lb xml:id="pag75_line2" n="2" facs="#pag75_line2"/>
+					quelli ideali<pc>:</pc> non so come e 
+					<lb xml:id="pag75_line3" n="3" facs="#pag75_line3"/>
+					perché<pc>,</pc> ma mi vergogno di 
+					<lb xml:id="pag75_line4" n="4" facs="#pag75_line4"/>
+					parlarne<pc>.</pc>
+				</ab>
+				<ab>
+					Forse tanti **Cancellatura** 
+					<lb xml:id="pag75_line5" n="5" facs="#pag75_line5"/>
+					rettorica patriottica e politica 
+					<lb xml:id="pag75_line6" n="6" facs="#pag75_line6"/>
+					inibiscono di parlare di questi 
+					<lb xml:id="pag75_line7" n="7" facs="#pag75_line7"/>
+					argomenti con fresca e sponta<pc>=</pc>
+					<lb xml:id="pag75_line8" n="8" facs="#pag75_line8"/>
+					nea semplicità<pc>.</pc>
+				</ab>
+				<ab>
+					Eppure anche 
+					<lb xml:id="pag75_line9" n="9" facs="#pag75_line9"/>
+					in questo campo si fanno grandi 
+					<lb xml:id="pag75_line10" n="10" facs="#pag75_line10"/>
+					progressi<pc>.</pc>
+				</ab>
+				 <ab>
+					Il misticismo del secolo 
+					<lb xml:id="pag75_line11" n="11" facs="#pag75_line11"/>
+					scorso<pc>,</pc> causa ed effetto insicure(<pc>?</pc>)
+					<lb xml:id="pag75_line12" n="12" facs="#pag75_line12"/>
+					del concetto romantico e mazzi<pc>=</pc>
+					<lb xml:id="pag75_line13" n="13" facs="#pag75_line13"/>
+					niano delle nazioni (o ragioni????) che hanno 
+					<lb xml:id="pag75_line14" n="14" facs="#pag75_line14"/>
+					una missione da svolgere<pc>,</pc> è
+					<lb xml:id="pag75_line15" n="15" facs="#pag75_line15"/>
+					ormai tramontato<pc>.</pc>
+				</ab>
+				<ab>
+					Non abbiamo<pc>,</pc>
+					<lb xml:id="pag75_line16" n="16" facs="#pag75_line16"/>
+					che io sappia<pc>,</pc> poeti della rivo<pc>=</pc>
+					<lb xml:id="pag75_line17" n="17" facs="#pag75_line17"/>
+					luzione<pc>,</pc> ma oggi nessuno oserebbe<pc>,</pc>
+					<lb xml:id="pag75_line18" n="18" facs="#pag75_line18"/>
+					in questo secolo di miscredenti<pc>,</pc> di
+					<lb xml:id="pag75_line19" n="19" facs="#pag75_line19"/>
+					*cancellato(dichiarare)* predicare<pc>:</pc>
+					<lb xml:id="pag75_line20" n="20" facs="#pag75_line20"/>
+						L’unione e l’amore
+					<lb xml:id="pag75_line21" n="21" facs="#pag75_line21"/>
+						rivelano ai popoli
+					<lb xml:id="pag75_line22" n="22" facs="#pag75_line22"/>
+						la via del Signore *riga sopra* oppure
+				</ab>
 				<pb n="76"/>
-				<lb xml:id="pag76_line1" n="23" facs="#pag76_line1"/>
-				E vi dico in verità<pc>:</pc> quando il pop*cancellatura*
-				<lb xml:id="pag76_line2" n="24" facs="#pag76_line2"/>
-				%%% si mette alla sua testa ha una folgore
-				<lb xml:id="pag76_line3" n="25" facs="#pag76_line3"/>
-				gli da'<pc>.</pc> Con quell’evangelico<pc>:</pc> in ve<pc>=</pc>
-				<lb xml:id="pag76_line4" n="26" facs="#pag76_line4"/>
-				rità Il lato deteriore di questo mi<pc>=</pc>
-				<lb xml:id="pag76_line5" n="27" facs="#pag76_line5"/>
-				sticismo<pc>,</pc> cioè *coso sporco* la teoria eroica di
-				<lb xml:id="pag76_line6" n="28" facs="#pag76_line6"/>
-				D’Annunzio è apertamente criticata<pc>,</pc>
-				<lb xml:id="pag76_line7" n="29" facs="#pag76_line7"/>
-				L’altra settimana in un rapporto di
-				<lb xml:id="pag76_line8" n="30" facs="#pag76_line8"/>
-				ufficiali il Comandante citava il
-				<lb xml:id="pag76_line9" n="31" facs="#pag76_line9"/>
-				motto Ardisco non ordisco coman<pc>=</pc>
-				<lb xml:id="pag76_line10" n="32" facs="#pag76_line10"/>
-				dando di ardire il meno possibile<pc>,</pc>
-				<lb xml:id="pag76_line11" n="33" facs="#pag76_line11"/>
-				pur di raggiungere lo scopo<pc>,</pc> ma 
-				<lb xml:id="pag76_line12" n="34" facs="#pag76_line12"/>
-				di non fare dell’ardimento il proprio
-				<lb xml:id="pag76_line13" n="35" facs="#pag76_line13"/>
-				scopo<pc>.</pc> Tornando al primo discorso<pc>,</pc>
-				<lb xml:id="pag76_line14" n="36" facs="#pag76_line14"/>
-				spero di potermi (farmi) unire almeno a
-				<lb xml:id="pag76_line15" n="37" facs="#pag76_line15"/>
-				papà<pc>,</pc> quando sarò nella nuova
-				<lb xml:id="pag76_line16" n="38" facs="#pag76_line16"/>
-				formazione<pc>.</pc> Il P<pc>.</pc>d<pc>.</pc>A si trova nel
-				<lb xml:id="pag76_line17" n="39" facs="#pag76_line17"/>
-				solito contrasto col clan anche nel piccolo
-				<lb xml:id="pag76_line18" n="40" facs="#pag76_line18"/>
-				settore di cl------ Avevo costituito
-				<lb xml:id="pag76_line19" n="41" facs="#pag76_line19"/>
-				un piccolo centro nostro in luglio-agosto<pc>,</pc>
-				<lb xml:id="pag76_line20" n="42" facs="#pag76_line20"/>
-				con ----- quattro o cinque aderenti<pc>,</pc>
-				<lb xml:id="pag76_line21" n="43" facs="#pag76_line21"/>
-				che ora sono tra i giovani più attivi<pc>,</pc>
-				<lb xml:id="pag76_line22" n="44" facs="#pag76_line22"/>
-				ma alla mia partenza i cani hanno
+				<ab>
+					<lb xml:id="pag76_line1" n="23" facs="#pag76_line1"/>
+					E vi dico in verità<pc>:</pc> quando il pop*cancellatura*
+					<lb xml:id="pag76_line2" n="24" facs="#pag76_line2"/>
+					%%% si mette alla sua testa ha una folgore
+					<lb xml:id="pag76_line3" n="25" facs="#pag76_line3"/>
+					gli da'<pc>.</pc>
+				</ab>
+				<ab>
+					Con quell’evangelico<pc>:</pc> in ve<pc>=</pc>
+					<lb xml:id="pag76_line4" n="26" facs="#pag76_line4"/>
+					rità Il lato deteriore di questo mi<pc>=</pc>
+					<lb xml:id="pag76_line5" n="27" facs="#pag76_line5"/>
+					sticismo<pc>,</pc> cioè *coso sporco* la teoria eroica di
+					<lb xml:id="pag76_line6" n="28" facs="#pag76_line6"/>
+					D’Annunzio è apertamente criticata<pc>.</pc>
+				</ab>
+				<ab>
+					<lb xml:id="pag76_line7" n="29" facs="#pag76_line7"/>
+					L’altra settimana in un rapporto di
+					<lb xml:id="pag76_line8" n="30" facs="#pag76_line8"/>
+					ufficiali il Comandante citava il
+					<lb xml:id="pag76_line9" n="31" facs="#pag76_line9"/>
+					motto Ardisco non ordisco coman<pc>=</pc>
+					<lb xml:id="pag76_line10" n="32" facs="#pag76_line10"/>
+					dando di ardire il meno possibile<pc>,</pc>
+					<lb xml:id="pag76_line11" n="33" facs="#pag76_line11"/>
+					pur di raggiungere lo scopo<pc>,</pc> ma 
+					<lb xml:id="pag76_line12" n="34" facs="#pag76_line12"/>
+					di non fare dell’ardimento il proprio
+					<lb xml:id="pag76_line13" n="35" facs="#pag76_line13"/>
+					scopo<pc>.</pc>
+				</ab>
+				<ab>
+					Tornando al primo discorso<pc>,</pc>
+					<lb xml:id="pag76_line14" n="36" facs="#pag76_line14"/>
+					spero di potermi (farmi) unire almeno a
+					<lb xml:id="pag76_line15" n="37" facs="#pag76_line15"/>
+					papà<pc>,</pc> quando sarò nella nuova
+					<lb xml:id="pag76_line16" n="38" facs="#pag76_line16"/>
+					formazione<pc>.</pc>
+				</ab>
+				<ab> 
+					Il P<pc>.</pc>d<pc>.</pc>A si trova nel
+					<lb xml:id="pag76_line17" n="39" facs="#pag76_line17"/>
+					solito contrasto col clan anche nel piccolo
+					<lb xml:id="pag76_line18" n="40" facs="#pag76_line18"/>
+					settore di cl<pc>.</pc>------
+				</ab>
+				<ab>
+					Avevo costituito
+					<lb xml:id="pag76_line19" n="41" facs="#pag76_line19"/>
+					un piccolo centro nostro in luglio-agosto<pc>,</pc>
+					<lb xml:id="pag76_line20" n="42" facs="#pag76_line20"/>
+					con ----- quattro o cinque aderenti<pc>,</pc>
+					<lb xml:id="pag76_line21" n="43" facs="#pag76_line21"/>
+					che ora sono tra i giovani più attivi<pc>,</pc>
+					<lb xml:id="pag76_line22" n="44" facs="#pag76_line22"/>
+					ma alla mia partenza i cani hanno
 
-				<pb n="77"/>
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				assunto la direzione del movimento
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				e si sono imposti sia col loro ardimento
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				e il loro spirito organizzativo<pc>,</pc> sia 
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				approfittando della pochezza dei nostri
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				capi<pc>:</pc> c’è un certo Lamandava che<pc>,</pc>
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				anima e corpo<pc>,</pc> si dà alla guerra<pc>.</pc>
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				Invece L<pc>.</pc>D<pc>.</pc> venuto una sola volta<p
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>c>,</pc>
-				ha fatto una pessima figura perchè
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				non aveva denari per tornare a casa e
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				ha dovuto farseli imprestare *macchia* ne li
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				ha più restituiti già(<pc>?</pc>) consigliando
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				di bruciare gli stampati comunisti<pc>.</pc>
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				Ho fatto fatica a persuadere 
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				Ga a non giudicare di lui tutta
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				la personalità del P<pc>.</pc> Oggi riferivo
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				questo a G<pc>:</pc> con lui si si diceva che il
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				nostro programma è più adatto alle
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				condizioni dell'Italia<pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				ghesi<pc>,</pc> *cancellatura* parte dei contadini *cancellatura* ci
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				seguono<pc>,</pc> ma la nostra classe dirigente
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				è priva di decisione<pc>,</pc> priva di fede
-				<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
-				*macchia*
+					<pb n="77"/>
+					<lb xml:id="pag77_line1" n="45" facs="#pag77_line1"/>
+					assunto la direzione del movimento
+					<lb xml:id="pag77_line2" n="46" facs="#pag77_line2"/>
+					e si sono imposti sia col loro ardimento
+					<lb xml:id="pag77_line3" n="47" facs="#pag77_line3"/>
+					e il loro spirito organizzativo<pc>,</pc> sia 
+					<lb xml:id="pag77_line4" n="48" facs="#pag77_line4"/>
+					approfittando della pochezza dei nostri
+					<lb xml:id="pag77_line5" n="49" facs="#pag77_line5"/>
+					capi<pc>:</pc> c’è un certo Lamandava che<pc>,</pc>
+					<lb xml:id="pag77_line6" n="50" facs="#pag77_line6"/>
+					anima e corpo<pc>,</pc> si dà alla guerra<pc>.</pc>
+				</ab>
+				<ab>
+					<lb xml:id="pag77_line7" n="51" facs="#pag77_line7"/>
+					Invece L<pc>.</pc>D<pc>.</pc> venuto una sola volta<p
+					<lb xml:id="pag77_line8" n="52" facs="#pag77_line8"/>c>,</pc>
+					ha fatto una pessima figura perchè
+					<lb xml:id="pag77_line9" n="53" facs="#pag77_line9"/>
+					non aveva denari per tornare a casa e
+					<lb xml:id="pag77_line10" n="54" facs="#pag77_line10"/>
+					ha dovuto farseli imprestare *macchia* ne li
+					<lb xml:id="pag77_line11" n="55" facs="#pag77_line11"/>
+					ha più restituiti già(<pc>?</pc>) consigliando
+					<lb xml:id="pag77_line12" n="56" facs="#pag77_line12"/>
+					di bruciare gli stampati comunisti<pc>.</pc>
+				</ab>
+				<ab>
+					<lb xml:id="pag77_line13" n="57" facs="#pag77_line13"/>
+					Ho fatto fatica a persuadere 
+					<lb xml:id="pag77_line14" n="58" facs="#pag77_line14"/>
+					Ga a non giudicare di lui tutta
+					<lb xml:id="pag77_line15" n="59" facs="#pag77_line15"/>
+					la personalità del P<pc>.</pc>
+				</ab>
+				<ab>
+					Oggi riferivo
+					<lb xml:id="pag77_line16" n="60" facs="#pag77_line16"/>
+					questo a G<pc>:</pc> con lui si si diceva che il
+					<lb xml:id="pag77_line17" n="61" facs="#pag77_line17"/>
+					nostro programma è più adatto alle
+					<lb xml:id="pag77_line18" n="62" facs="#pag77_line18"/>
+					condizioni dell'Italia<pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
+					<lb xml:id="pag77_line19" n="63" facs="#pag77_line19"/>
+					ghesi<pc>,</pc> *cancellatura* parte dei contadini *cancellatura* ci
+					<lb xml:id="pag77_line20" n="64" facs="#pag77_line20"/>
+					seguono<pc>,</pc> ma la nostra classe dirigente
+					<lb xml:id="pag77_line21" n="65" facs="#pag77_line21"/>
+					è priva di decisione<pc>,</pc> priva di fede
+					<lb xml:id="pag77_line22" n="66" facs="#pag77_line22"/>
+					*macchia*<pc>.</pc>
+				</ab>
 
 				<pb n="78"/>
+				
+				<lb xml:id="pag78_line1" n="67" facs="#pag78_line1"/>
 							18
-				Ieri non scrissi niente perchè andai a
-				T<pc>.</pc> P<pc>:</pc> quando viaggio non ho tempo
-				di scrivere<pc>.</pc> Mi trovai bene non
-				%%%<pc>,</pc> nella mattina<pc>.</pc> Vidi anche
-				Mariella<pc>:</pc> freddezza dalle sue
-				parti<pc>.</pc> Mi comunicò di aver
-				dovuto distruggere le mie lettere<pc>,</pc>
-				con suo rincrescimento<pc>;</pc> ma forse
-				è un simbolo<pc>:</pc> prima ha distrutto
-				la nostra amicizia e poi i suoi resti<pc>.</pc> 
-				Dichiarò di volersi liberare della
-				mamma e della zia<pc>,</pc> che sono
-				un peso morto e trattò male F<pc>.</pc>
-				Queste sue cattiverie una volta
-				mi eccitavano<pc>,</pc> soprattutto se ri<pc>=</pc>
-				volte verso di me<pc>:</pc> trovavo
-				un piacere sadico nella sua mal<pc>=</pc>
-				vagità<pc>,</pc> mi pareva di lottare finalmente
-				con una donna amazzone (forte) e spietata e 
-				violenta<pc>,</pc> che impiegasse su di me
-				tutte le sue forze senza riguardo<pc>,</pc>
+				<ab>
+					<lb xml:id="pag78_line2" n="68" facs="#pag78_line2"/>
+					Ieri non scrissi niente perchè andai a
+					<lb xml:id="pag78_line3" n="69" facs="#pag78_line3"/>
+					T<pc>.</pc> P<pc>:</pc> quando viaggio non ho tempo
+					<lb xml:id="pag78_line4" n="70" facs="#pag78_line4"/>
+					di scrivere<pc>.</pc>
+				</ab>
+				<ab>
+					Mi trovai bene con
+					<lb xml:id="pag78_line5" n="71" facs="#pag78_line5"/>
+					%%%<pc>,</pc> nella mattina<pc>.</pc>
+				</ab>
+				<ab>
+					Vidi anche
+					<lb xml:id="pag78_line6" n="72" facs="#pag78_line6"/>
+					Mariella<pc>:</pc> freddezza dalle sue
+					<lb xml:id="pag78_line7" n="73" facs="#pag78_line7"/>
+					parti<pc>.</pc>
+				</ab>
+				<ab>
+					Mi comunicò di aver
+					<lb xml:id="pag78_line8" n="74" facs="#pag78_line8"/>
+					dovuto distruggere le mie lettere<pc>,</pc>
+					<lb xml:id="pag78_line9" n="75" facs="#pag78_line9"/>
+					con suo rincrescimento<pc>;</pc> ma forse
+					<lb xml:id="pag78_line10" n="76" facs="#pag78_line10"/>
+					è un simbolo<pc>:</pc> prima ha distrutto
+					<lb xml:id="pag78_line11" n="77" facs="#pag78_line11"/>
+					la nostra amicizia e poi i suoi resti<pc>.</pc>
+				</ab> 
+				<ab>
+					<lb xml:id="pag78_line12" n="78" facs="#pag78_line12"/>
+					Dichiarò di volersi liberare della
+					<lb xml:id="pag78_line13" n="79" facs="#pag78_line13"/>
+					mamma e della zia<pc>,</pc> che sono
+					<lb xml:id="pag78_line14" n="80" facs="#pag78_line14"/>
+					un peso morto e trattò male F<pc>.</pc>
+				</ab>
+				<ab>
+					<lb xml:id="pag78_line15" n="81" facs="#pag78_line15"/>
+					Queste sue cattiverie una volta
+					<lb xml:id="pag78_line16" n="82" facs="#pag78_line16"/>
+					mi eccitavano<pc>,</pc> soprattutto se ri<pc>=</pc>
+					<lb xml:id="pag78_line17" n="83" facs="#pag78_line17"/>
+					volte verso di me<pc>:</pc> trovavo
+					<lb xml:id="pag78_line18" n="84" facs="#pag78_line18"/>
+					un piacere sadico nella sua mal<pc>=</pc>
+					<lb xml:id="pag78_line19" n="85" facs="#pag78_line19"/>
+					vagità<pc>,</pc> mi pareva di lottare finalmente
+					<lb xml:id="pag78_line20" n="86" facs="#pag78_line20"/>
+					con una donna amazzone (forte) e spietata e 
+					<lb xml:id="pag78_line21" n="87" facs="#pag78_line21"/>
+					violenta<pc>,</pc> che impiegasse su di me
+					<lb xml:id="pag78_line22" n="88" facs="#pag78_line22"/>
+					tutte le sue forze senza riguardo<pc>,</pc>
 
-				<pb n="79"/>
-				ma questa morbosa passione è finita<pc>.</pc>
-				Quando uscì<pc>,</pc> F<pc>.</pc> osservò che M<pc>.</pc> è sempre
-				sicura di sè<pc>,</pc> piena di energia e io
-				lamentai che mancasse<pc>?</pc> di spiritualità
-				il che coincide<pc>,</pc> perchè la spiritualità
-				sorge dal tormento interno<pc>,</pc> dal 
-				dubbio<pc>,</pc> dal rimorso<pc>,</pc> dalla voce
-				della coscienza che si sdoppia<pc>.</pc> M<pc>.</pc>
-				manca di tutto questo<pc>.</pc> *Non vogli*
-				Sono troppo onesto e troppo intelli<pc>=</pc>
-				gente per ripetere la storia della
-				volpe che giudica immatura 
-				l'uva che non sa raggiungere<pc>:</pc>
-				*cancellatura* Mi ridico che non sposo M<pc>.</pc>
-				perchè M<pc>.</pc> non mi vuole<pc>,</pc> ma devo
-				spesso ammettere che ora le ri<pc>=</pc>
-				conosco dei difetti irritanti che
-				qualche mese fa non mi urta<pc>=</pc>
-				vano o addirittura mi attira<pc>=</pc>
-				vano<pc>.</pc> (Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
+					<pb n="79"/>
+					<lb xml:id="pag79_line1" n="89" facs="#pag79_line1"/>
+					ma questa morbosa passione è finita<pc>.</pc>
+				</ab>
+
+				<ab>
+					<lb xml:id="pag79_line2" n="90" facs="#pag79_line2"/>
+					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che M<pc>.</pc> è sempre
+					<lb xml:id="pag79_line3" n="91" facs="#pag79_line3"/>
+					sicura di sè<pc>,</pc> piena di energia e io
+					<lb xml:id="pag79_line4" n="92" facs="#pag79_line4"/>
+					lamentai che mancasse di spiritualità
+					<lb xml:id="pag79_line5" n="93" facs="#pag79_line5"/>
+					il che coincide<pc>,</pc> perchè la spiritualità
+					<lb xml:id="pag79_line6" n="94" facs="#pag79_line6"/>
+					sorge dal tormento interno<pc>,</pc> dal 
+					<lb xml:id="pag79_line7" n="95" facs="#pag79_line7"/>
+					dubbio<pc>,</pc> dal rimorso<pc>,</pc> dalla voce
+					<lb xml:id="pag79_line8" n="96" facs="#pag79_line8"/>
+					della coscienza che si sdoppia<pc>:</pc> M<pc>.</pc>
+					<lb xml:id="pag79_line9" n="97" facs="#pag79_line9"/>
+					manca di tutto questo<pc>.</pc>
+				</ab>
+				<ab>
+					*Non vogli*
+					<lb xml:id="pag79_line10" n="98" facs="#pag79_line10"/>
+					Sono troppo onesto e troppo intelli<pc>=</pc>
+					<lb xml:id="pag79_line11" n="99" facs="#pag79_line11"/>
+					gente per ripetere la storia della
+					<lb xml:id="pag79_line12" n="100" facs="#pag79_line12"/>
+					volpe che giudica immatura 
+					<lb xml:id="pag79_line13" n="101" facs="#pag79_line13"/>
+					l'uva che non sa raggiungere<pc>:</pc>
+					<lb xml:id="pag79_line14" n="102" facs="#pag79_line14"/>
+					*cancellatura* Mi ridico che non sposo M<pc>.</pc>
+					<lb xml:id="pag79_line15" n="103" facs="#pag79_line15"/>
+					perchè M<pc>.</pc> non mi vuole<pc>,</pc> ma devo
+					<lb xml:id="pag79_line16" n="104" facs="#pag79_line16"/>
+					spesso ammettere che ora le ri<pc>=</pc>
+					<lb xml:id="pag79_line17" n="105" facs="#pag79_line17"/>
+					conosco dei difetti irritanti che
+					<lb xml:id="pag79_line18" n="106" facs="#pag79_line18"/>
+					qualche mese fa non mi urta<pc>=</pc>
+					<lb xml:id="pag79_line19" n="107" facs="#pag79_line19"/>
+					vano o addirittura mi attira<pc>=</pc>
+					<lb xml:id="pag79_line20" n="108" facs="#pag79_line20"/>
+					vano<pc>.</pc>
+				</ab>
+				 (Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
 					amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che)
-				Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc> Il
-				P<pc>.</pc>d<pc>.</pc>A<pc>.</pc> deve essere partito di
-
-
+				<ab>
+					<lb xml:id="pag79_line21" n="109" facs="#pag79_line21"/>
+					Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc>
+				</ab>
+				<ab>
+					Il
+					<lb xml:id="pag79_line22" n="110" facs="#pag79_line22"/>
+					P<pc>.</pc>d<pc>.</pc>A<pc>.</pc> deve essere partito di
+				</ab>
 				(muore di sete E m'offri un frutto fresco
 				e velenoso<pc>.</pc>)
 			</div>
