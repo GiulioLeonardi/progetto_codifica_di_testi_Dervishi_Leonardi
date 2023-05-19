@@ -3,7 +3,134 @@
 
 <TEI>
 
-	<teiHeader></teiHeader>
+	<teiHeader>
+		<fileDesc>
+			
+			<titleStmt>
+				<title>
+					Versione elettronica degli scritti autografi di <persName ref="#EA">Emanuele Artom</persName>
+				</title>
+			</titleStmt>
+	
+			<editionStmt>
+				<edition>
+					<!-- Scrivi ilaria una presentazione del progetto unitario che ne so-->
+				</edition>
+				<respStmt>
+					<resp>Conversione TEI P5 a cura di:</resp>
+					<name xml:id="ID" >Ilaria Dervishi</name>
+					<name xml:id="GL" >Giulio Leonardi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Lavoro coordinato da:</resp>
+					<name xml:id="ADG">Angelo Mario Del Grosso</name>
+				</respStmt>
+			</editionStmt>
+
+			<publicationStmt>
+				<publisher>Università di Pisa</publisher>
+				<pubPlace>Pisa</pubPlace>
+				<date when="2023">2023</date>
+				<availability>
+					<p>Opera pubblica ad accesso libero</p>
+				</availability>
+			</publicationStmt>
+
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier>
+						<country>Italia</country>
+						<settlement>Milano</settlement>
+						<repository ref="http://digital-library.cdec.it/cdec-web/" >Centro di documentazione ebraica contemporanea</repository>
+						<idno>ST0003-000006</idno>
+					</msIdentifier>
+
+					<msContents>
+						<msItem>
+							<author ref="#EA">Emanuele Artom</author>
+							<title>Raccolta degli scritti autografi di <persName ref="#EA">Emanuele Artom</persName></title>
+						</msItem>
+					</msContents>
+
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>Fogli di carta</support>
+								<extent>174 pagine totali: 172 dei diari di <persName ref="#EA">Emanuele Artom</persName>, 2 della lettera originale della madre Amalia.</extent>
+							</supportDesc>
+							<layoutDesc>
+								<p>Ogni pagina è formata da un'unica colonna e da 22 righe; ci sono essere delle frasi, inserite successivamente, tra due righe regolari e che sforano il margine della pagine.</p>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc>
+							<p>Le prime due pagine sono scritte dalla madre; le restanti sono scritte da <persName ref="#EA">Emanuele Artom</persName>.</p>
+						</handDesc>
+					</physDesc>
+
+					<history>
+						<origin>
+							<p>I diari sono stati scritti da <persName ref="#EA">Emanuele Artom</persName> durante la sua esperienza partigiata tra il <date when="1943">1943</date> e il <date when="1944">1944</date>.</p>
+						</origin>
+					</history>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+		<encodingDesc>
+			<projectDesc>
+				<p>Questo progetto è stato realizzato per l'esame del corso Codifica di testi.</p>
+			</projectDesc>
+			<editorialDecl>
+				<correction>
+					<p>I casi di errori grammaticali o ortografici sono stati riportati sia in forma originale che corretta.</p>
+				</correction>
+				
+				<punctuation>
+					<p>I segni di punteggiatura del testo sono stati interamente preservati.</p>
+				</punctuation>
+
+				<hyphenation>
+					<p>L'originale suddivisione delle parole nei ritorni a capo è stata preservata.</p>
+				</hyphenation>
+
+				<segmentation>
+					<p>Il testo è stato suddiviso in periodi, utilizzando il tag <gi>ab</gi>.</p>
+				</segmentation>
+
+				<stdVals>
+					<p>Il formato di data utilizzato nell'attributo <att>when</att> è di default <val>AAAA-MM-GG</val>.</p>
+				</stdVals>
+
+				<interpretation>
+					<p>I nomi di persona e di luogo presenti nel testo sono marcati.</p>
+				</interpretation>
+			</editorialDecl>
+
+			<refsDecl>
+				<p>I riferimenti degli elementi sono stati realizzati attraverso le coppie di attributi <att>xml:id</att> e <att>ref</att>.</p>
+			</refsDecl>
+		</encodingDesc>
+
+		<profileDesc>
+			<langUsage>
+				<language ident="ita">Italiano</language>
+			</langUsage>
+			<textDesc>
+				<channel mode="w"/>
+				<constitution type="frags"/>
+				<derivation type="original"/>
+				<domain type="private"/>
+				<factuality type="fact"/>
+				<interaction type="none"/>
+				<preparedness type="none"/>
+				<purpose type="express"/>
+			</textDesc>
+			<settingDesc>
+				<p>Diari scritti da <persName ref="#EA">Emanuele Artom</persName> durante la sua esperienza partigiana tra il <date when="1943">1943</date> e il <date when="1944">1944</date>.</p>
+			</settingDesc>
+		</profileDesc>
+	</teiHeader>
+
 	<facsimile></facsimile>
 
 	<text xml:lang="ita" xml:id="pag_75_76_77_78_79" subtype="">
@@ -186,7 +313,7 @@
 				<pb n="78"/>
 				
 				<lb xml:id="pag78_line1" n="67" facs="#pag78_line1"/>
-							18
+						18
 				<ab>
 					<lb xml:id="pag78_line2" n="68" facs="#pag78_line2"/>
 					Ieri non scrissi niente perchè andai a
