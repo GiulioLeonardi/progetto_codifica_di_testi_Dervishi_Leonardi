@@ -533,8 +533,8 @@
 				</ab>
 				<ab>
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
-					Invece L<pc>.</pc>D<pc>.</pc> venuto una sola volta<p
-					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>c>,</pc>
+					Invece L<pc>.</pc>D<pc>.</pc> venuto una sola volta<pc>,</pc>
+					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>
 					ha fatto una pessima figura perchè
 					<lb xml:id="pag77-line9" n="53" facs="#pag77_line9"/>
 					non aveva denari per tornare a casa e
@@ -574,7 +574,7 @@
 				<pb facs="#pag78" n="78" />
 				
 				<lb xml:id="pag78-line1" n="67" facs="#pag78_line1"/>
-						18
+				<!-- <dateline>18</dateline> -->
 				<ab>
 					<lb xml:id="pag78-line2" n="68" facs="#pag78_line2"/>
 					Ieri non scrissi niente perchè andai a
@@ -680,8 +680,12 @@
 					<lb xml:id="pag79-line20" n="108" facs="#pag79_line20"/>
 					vano<pc>.</pc>
 				</ab>
-				 (Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
-					amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che)
+				<ab> <!-- OCCHIO CHE QUESTO è IL TESTO AGGIUNTO (add)-->
+				(Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
+					amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
+					muore di sete E m'offri un frutto fresco
+					e velenoso<pc>.</pc>)
+				</ab>
 				<ab>
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
 					Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc>
@@ -691,8 +695,6 @@
 					<lb xml:id="pag79-line22" n="110" facs="#pag79_line22"/>
 					P<pc>.</pc>d<pc>.</pc>A<pc>.</pc> deve essere partito di
 				</ab>
-				(muore di sete E m'offri un frutto fresco
-				e velenoso<pc>.</pc>)
 			</div>
 		</body>
 	</text>
