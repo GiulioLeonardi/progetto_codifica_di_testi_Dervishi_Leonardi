@@ -414,7 +414,7 @@
 				<pb facs="#pag75" n="75"/>
 				<ab>
 					<lb xml:id="pag75-line1" n="1" facs="#pag75_line1"/>
-					<del hand="#EA"> <gap atLeast="4" atMost="6" unit="chars" reason="cancelled"/></del> parte delle bande e taccio
+					<del hand="#EA"> <gap reason="cancelled" atLeast="4" atMost="6" unit="chars"/></del> parte delle bande e taccio
 					<lb xml:id="pag75-line2" n="2" facs="#pag75_line2"/>
 					<unclear reason="ink blot" cert="high">quelli</unclear> ideali<pc>:</pc> non so bene il
 					<lb xml:id="pag75-line3" n="3" facs="#pag75_line3"/>
@@ -490,9 +490,9 @@
 						<sic>Quando</sic>
 						<corr>quando</corr>
 					</choice> 
-					il <gap reason="ink blot"></gap>
+					il po<gap reason="ink blot" atLeast="6" atMost="9" unit="chars"></gap>sta
 					<lb xml:id="pag76-line2" n="24" facs="#pag76_line2"/>
-					<gap reason="illegible"></gap>si mette alla sua testa ha una folgore
+					<gap reason="illegible" quantity="3" unit="chars"></gap>si mette alla sua testa ha una folgore
 					<lb xml:id="pag76-line3" n="25" facs="#pag76_line3"/>
 					gli da'<pc>.</pc>
 				</ab>
@@ -501,7 +501,7 @@
 					<lb xml:id="pag76-line4" n="26" facs="#pag76_line4"/>
 					rità Il lato deteriore di questo mi<pc>=</pc>
 					<lb xml:id="pag76-line5" n="27" facs="#pag76_line5"/>
-					sticismo<pc>,</pc> cioè *coso sporco* la teoria eroica di
+					sticismo<pc>,</pc> cioè <pc>:</pc> la teoria eroica di
 					<lb xml:id="pag76-line6" n="28" facs="#pag76_line6"/>
 					<persName ref="#GA">D’Annunzio</persName> è apertamente criticata<pc>.</pc>
 				</ab>
@@ -511,7 +511,7 @@
 					<lb xml:id="pag76-line8" n="30" facs="#pag76_line8"/>
 					ufficiali il Comandante citava il
 					<lb xml:id="pag76-line9" n="31" facs="#pag76_line9"/>
-					motto Ardisco non ordisco coman<pc>=</pc>
+					motto <title>Ardisco non ordisco</title> coman<pc>=</pc>
 					<lb xml:id="pag76-line10" n="32" facs="#pag76_line10"/>
 					dando di ardire il meno possibile<pc>,</pc>
 					<lb xml:id="pag76-line11" n="33" facs="#pag76_line11"/>
@@ -532,20 +532,22 @@
 				</ab>
 				<ab> 
 					Il 
-					<choice>
-						<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
-						<expan>Partito d'Azione</expan>
-					</choice> 
+					<orgName>
+						<choice>
+							<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
+							<expan>Partito d'Azione</expan>
+						</choice>
+					</orgName> 
 					si trova nel
 					<lb xml:id="pag76-line17" n="39" facs="#pag76_line17"/>
 					solito contrasto col clan anche nel piccolo
 					<lb xml:id="pag76-line18" n="40" facs="#pag76_line18"/>
-					settore di <del rend="scribble"><gap reason="illegible" atLeast="7" atMost="10" unit="chars"></gap></del>
+					settore di cl<del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
 				</ab>
 				<ab>
 					Avevo costituito
 					<lb xml:id="pag76-line19" n="41" facs="#pag76_line19"/>
-					un piccolo centro nostro in luglio-agosto<pc>,</pc>
+					un piccolo centro nostro in <date from="--07" to="--08">luglio-agosto</date><pc>,</pc>
 					<lb xml:id="pag76-line20" n="42" facs="#pag76_line20"/>
 					con <del rend="overstrike" hand="#EA">parecchi</del> quattro o cinque aderenti<pc>,</pc>
 					<lb xml:id="pag76-line21" n="43" facs="#pag76_line21"/>
@@ -693,7 +695,12 @@
 
 				<ab>
 					<lb xml:id="pag79-line2" n="90" facs="#pag79_line2"/>
-					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che M<pc>.</pc> è sempre
+					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che 
+					<choice>
+						<abbr>M<pc>.</pc></abbr>
+						<expan>Mariella</expan>
+					</choice>
+					 è sempre
 					<lb xml:id="pag79-line3" n="91" facs="#pag79_line3"/>
 					sicura di 
 					<choice>
@@ -762,12 +769,14 @@
 					<lb xml:id="pag79-line20" n="108" facs="#pag79_line20"/>
 					vano<pc>.</pc>
 				</ab>
-				<ab><add place="inline bottom">
-				Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
-					amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
-					muore di sete E m'offri un frutto fresco
-					e velenoso<pc>.</pc>
-				</add></ab>
+				<ab>
+					<add place="inline bottom">
+						Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
+						amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
+						muore di sete E m'offri un frutto fresco
+						e velenoso<pc>.</pc>
+					</add>
+				</ab>
 				<ab>
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
 					Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc>
@@ -775,10 +784,12 @@
 				<ab>
 					Il
 					<lb xml:id="pag79-line22" n="110" facs="#pag79_line22"/>
-					<choice>
-						<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
-						<expan>Partito d'Azione</expan>
-					</choice>  
+					<orgName>
+						<choice>
+							<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
+							<expan>Partito d'Azione</expan>
+						</choice>
+					</orgName>  
 					deve essere partito di
 				</ab>
 			</div>
