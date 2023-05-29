@@ -620,7 +620,7 @@
 					<lb xml:id="pag77-line17" n="61" facs="#pag77_line17"/>
 					nostro programma è più adatto alle
 					<lb xml:id="pag77-line18" n="62" facs="#pag77_line18"/>
-					condizioni dell'Italia<pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
+					condizioni dell'<country>Italia</country><pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
 					<lb xml:id="pag77-line19" n="63" facs="#pag77_line19"/>
 					ghesi<pc>,</pc> <del type="truncation" rend="overstrike">conta</del> parte dei contadini <del type="truncation" rend="overstrike">pa</del> ci
 					<lb xml:id="pag77-line20" n="64" facs="#pag77_line20"/>
@@ -644,7 +644,7 @@
 					</choice> 
 					andai a
 					<lb xml:id="pag78-line3" n="69" facs="#pag78_line3"/>
-					T<pc>.</pc> P<pc>:</pc> quando viaggio non ho tempo
+					<placeName><abbr>T<pc>.</pc> P</abbr></placeName><pc>:</pc> quando viaggio non ho tempo
 					<lb xml:id="pag78-line4" n="70" facs="#pag78_line4"/>
 					di scrivere<pc>.</pc>
 				</ab>
