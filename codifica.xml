@@ -585,7 +585,7 @@
 				</ab>
 				<ab>
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
-					Invece <abbr>L<pc>.</pc>D<pc>.</pc></abbr> venuto una sola volta<pc>,</pc>
+					Invece <persName><abbr>L<pc>.</pc>D<pc>.</pc></abbr></persName> venuto una sola volta<pc>,</pc>
 					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>
 					ha fatto una pessima figura 
 					<choice>
@@ -609,14 +609,14 @@
 					<lb xml:id="pag77-line13" n="57" facs="#pag77_line13"/>
 					Ho fatto fatica a persuadere 
 					<lb xml:id="pag77-line14" n="58" facs="#pag77_line14"/>
-					Ga a non giudicare da lui tutta
+					<persName><abbr>Ga</abbr></persName> a non giudicare da lui tutta
 					<lb xml:id="pag77-line15" n="59" facs="#pag77_line15"/>
-					la personalità del P<pc>.</pc>
+					la personalità del <abbr>P</abbr><pc>.</pc>
 				</ab>
 				<ab>
 					Oggi riferivo
 					<lb xml:id="pag77-line16" n="60" facs="#pag77_line16"/>
-					questo a G<pc>:</pc> con lui si diceva che il
+					questo a <persName><abbr>G</abbr></persName><pc>:</pc> con lui si diceva che il
 					<lb xml:id="pag77-line17" n="61" facs="#pag77_line17"/>
 					nostro programma è più adatto alle
 					<lb xml:id="pag77-line18" n="62" facs="#pag77_line18"/>
@@ -651,7 +651,7 @@
 				<ab>
 					Mi trovai bene con
 					<lb xml:id="pag78-line5" n="71" facs="#pag78_line5"/>
-					F<pc>.</pc><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
+					<persName><abbr>F<pc>.</pc></abbr></persName><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
 				</ab>
 				<ab>
 					Vidi anche
@@ -677,7 +677,7 @@
 					<lb xml:id="pag78-line13" n="79" facs="#pag78_line13"/>
 					mamma e della zia<pc>,</pc> che sono
 					<lb xml:id="pag78-line14" n="80" facs="#pag78_line14"/>
-					un peso morto e trattò male F<pc>.</pc>
+					un peso morto e trattò male <persName><abbr>F</abbr></persName><pc>.</pc>
 				</ab>
 				<ab>
 					<lb xml:id="pag78-line15" n="81" facs="#pag78_line15"/>
@@ -710,10 +710,12 @@
 				<ab>
 					<lb xml:id="pag79-line2" n="90" facs="#pag79_line2"/>
 					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che 
-					<choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Marcella</expan>
-					</choice>
+					<persName>
+						<choice>
+							<abbr>M<pc>.</pc></abbr>
+							<expan>Marcella</expan>
+						</choice>
+					</persName>
 					 è sempre
 					<lb xml:id="pag79-line3" n="91" facs="#pag79_line3"/>
 					sicura di 
@@ -737,10 +739,12 @@
 					dubbio<pc>,</pc> dal rimorso<pc>,</pc> dalla voce
 					<lb xml:id="pag79-line8" n="96" facs="#pag79_line8"/>
 					della coscienza che si sdoppia<pc>:</pc> 
-					<choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Marcella</expan>
-					</choice>
+					<persName>
+						<choice>
+							<abbr>M<pc>.</pc></abbr>
+							<expan>Marcella</expan>
+						</choice>
+					</persName>
 					<lb xml:id="pag79-line9" n="97" facs="#pag79_line9"/>
 					manca di tutto questo<pc>.</pc>
 				</ab>
@@ -761,16 +765,20 @@
 						<corr>mi</corr>
 					</choice>
 					 ridico che non sposo 
-					 <choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Marcella</expan>
-					</choice>
+					 <persName>
+						<choice>
+							<abbr>M<pc>.</pc></abbr>
+							<expan>Marcella</expan>
+						</choice>
+					</persName>
 					<lb xml:id="pag79-line15" n="103" facs="#pag79_line15"/>
 					perchè 
-					<choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Marcella</expan>
-					</choice>
+					<persName>
+						<choice>
+							<abbr>M<pc>.</pc></abbr>
+							<expan>Marcella</expan>
+						</choice>
+					</persName>
 					 non mi vuole<pc>,</pc> ma <del rend="overstrike" type="truncation">dev</del>
 					<lb xml:id="pag79-line16" n="104" facs="#pag79_line16"/>
 					posso ammettere che ora le ri<pc>=</pc>
@@ -793,7 +801,7 @@
 				</ab>
 				<ab>
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
-					Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc>
+					Ai <abbr>M<pc>.</pc></abbr> ripetei il mio concetto<pc>.</pc>
 				</ab>
 				<ab>
 					Il
