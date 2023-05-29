@@ -430,7 +430,7 @@
 					Forse tanti 
 					<subst>
 						<del rend="overtyped">
-							<gap reason="overwriting illegible"/>
+							<gap reason="overwriting illegible"/> di
 						</del>
 						<add>
 							<gap reason="illegible"></gap>
@@ -455,7 +455,7 @@
 				 <ab>
 					Il misticismo del secolo 
 					<lb xml:id="pag75-line11" n="11" facs="#pag75_line11"/>
-					scorso<pc>,</pc> causa ed effetto insicure(<pc>?</pc>)
+					scorso<pc>,</pc> causa ed effetto insieme
 					<lb xml:id="pag75-line12" n="12" facs="#pag75_line12"/>
 					del concetto romantico e mazzi<pc>=</pc>
 					<lb xml:id="pag75-line13" n="13" facs="#pag75_line13"/>
@@ -542,7 +542,7 @@
 					<lb xml:id="pag76-line17" n="39" facs="#pag76_line17"/>
 					solito contrasto col clan anche nel piccolo
 					<lb xml:id="pag76-line18" n="40" facs="#pag76_line18"/>
-					settore di cl<del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
+					settore di Ca<del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
 				</ab>
 				<ab>
 					Avevo costituito
@@ -553,7 +553,7 @@
 					<lb xml:id="pag76-line21" n="43" facs="#pag76_line21"/>
 					che ora sono tra i giovani più attivi<pc>,</pc>
 					<lb xml:id="pag76-line22" n="44" facs="#pag76_line22"/>
-					ma alla mia partenza i cani hanno
+					ma alla mia partenza i com hanno
 
 					<pb facs="#pag77" n="77"/>
 					<lb xml:id="pag77-line1" n="45" facs="#pag77_line1"/>
@@ -595,7 +595,7 @@
 					<lb xml:id="pag77-line13" n="57" facs="#pag77_line13"/>
 					Ho fatto fatica a persuadere 
 					<lb xml:id="pag77-line14" n="58" facs="#pag77_line14"/>
-					Ga a non giudicare di lui tutta
+					Ga a non giudicare da lui tutta
 					<lb xml:id="pag77-line15" n="59" facs="#pag77_line15"/>
 					la personalità del P<pc>.</pc>
 				</ab>
@@ -614,7 +614,7 @@
 					<lb xml:id="pag77-line21" n="65" facs="#pag77_line21"/>
 					è priva di decisione<pc>,</pc> priva di fede
 					<lb xml:id="pag77-line22" n="66" facs="#pag77_line22"/>
-					<gap reason="ink blot"></gap><pc>.</pc>
+					<unclear reason="ink blot" cert="low">vera</unclear><pc>.</pc>
 				</ab>
 
 				<pb facs="#pag78" n="78" />
@@ -642,7 +642,7 @@
 				<ab>
 					Vidi anche
 					<lb xml:id="pag78-line6" n="72" facs="#pag78_line6"/>
-					<persName>Mariella</persName><pc>:</pc> freddezza dalle sue
+					<persName>Marcella</persName><pc>:</pc> freddezza dalle sue
 					<lb xml:id="pag78-line7" n="73" facs="#pag78_line7"/>
 					parti<pc>.</pc>
 				</ab>
@@ -698,7 +698,7 @@
 					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che 
 					<choice>
 						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
+						<expan>Marcella</expan>
 					</choice>
 					 è sempre
 					<lb xml:id="pag79-line3" n="91" facs="#pag79_line3"/>
@@ -725,7 +725,7 @@
 					della coscienza che si sdoppia<pc>:</pc> 
 					<choice>
 						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
+						<expan>Marcella</expan>
 					</choice>
 					<lb xml:id="pag79-line9" n="97" facs="#pag79_line9"/>
 					manca di tutto questo<pc>.</pc>
@@ -749,13 +749,13 @@
 					 ridico che non sposo 
 					 <choice>
 						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
+						<expan>Marcella</expan>
 					</choice>
 					<lb xml:id="pag79-line15" n="103" facs="#pag79_line15"/>
 					perchè 
 					<choice>
 						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
+						<expan>Marcella</expan>
 					</choice>
 					 non mi vuole<pc>,</pc> ma <del rend="overstrike" type="truncation">dev</del>
 					<lb xml:id="pag79-line16" n="104" facs="#pag79_line16"/>
