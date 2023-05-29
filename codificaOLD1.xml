@@ -125,20 +125,6 @@
 				<preparedness type="none"/>
 				<purpose type="express"/>
 			</textDesc>
-			<particDesc>
-				<listPerson>
-					<person xml:id="EA">
-						<persName>Emanuele Artom</persName>
-						<birth when="1915-06-23"/>
-						<death when="1944-04-07"/>
-					</person>
-					<person xml:id="GA">
-						<persName>Gabriele D'Annunzio</persName>
-						<birth when="1863-03-12"/>
-						<death when="1938-03-01"/>
-					</person>
-				</listPerson>
-			</particDesc>
 			<settingDesc>
 				<p>Diari scritti da <persName ref="#EA">Emanuele Artom</persName> durante la sua esperienza partigiana tra il <date when="1943">1943</date> e il <date when="1944">1944</date>.</p>
 			</settingDesc>
@@ -414,30 +400,18 @@
 				<pb facs="#pag75" n="75"/>
 				<ab>
 					<lb xml:id="pag75-line1" n="1" facs="#pag75_line1"/>
-					<del hand="#EA"> <gap atLeast="4" atMost="6" unit="chars" reason="cancelled"/></del> parte delle bande e taccio
+					*Cancellatura* parte delle bande e taccio
 					<lb xml:id="pag75-line2" n="2" facs="#pag75_line2"/>
-					<unclear reason="ink blot" cert="high">quelli</unclear> ideali<pc>:</pc> non so bene il
+					quelli ideali<pc>:</pc> non so come e 
 					<lb xml:id="pag75-line3" n="3" facs="#pag75_line3"/>
-					<choice>
-						<sic>perchè</sic>
-						<corr>perché</corr>
-					</choice>
-					<pc>,</pc> ma mi vergogno di 
+					perché<pc>,</pc> ma mi vergogno di 
 					<lb xml:id="pag75-line4" n="4" facs="#pag75_line4"/>
 					parlarne<pc>.</pc>
 				</ab>
 				<ab>
-					Forse tanti 
-					<subst>
-						<del rend="overtyped">
-							<gap reason="overwriting illegible"/>
-						</del>
-						<add>
-							<gap reason="illegible"></gap>
-						</add>
-					</subst> 
+					Forse tanti **Cancellatura** 
 					<lb xml:id="pag75-line5" n="5" facs="#pag75_line5"/>
-					<distinct type="archaic">rettorica</distinct> patriottica e politica 
+					rettorica patriottica e politica 
 					<lb xml:id="pag75-line6" n="6" facs="#pag75_line6"/>
 					inibiscono di parlare di questi 
 					<lb xml:id="pag75-line7" n="7" facs="#pag75_line7"/>
@@ -459,7 +433,7 @@
 					<lb xml:id="pag75-line12" n="12" facs="#pag75_line12"/>
 					del concetto romantico e mazzi<pc>=</pc>
 					<lb xml:id="pag75-line13" n="13" facs="#pag75_line13"/>
-					niano delle nazioni che hanno 
+					niano delle nazioni (o ragioni????) che hanno 
 					<lb xml:id="pag75-line14" n="14" facs="#pag75_line14"/>
 					una missione da svolgere<pc>,</pc> è
 					<lb xml:id="pag75-line15" n="15" facs="#pag75_line15"/>
@@ -472,27 +446,22 @@
 					<lb xml:id="pag75-line17" n="17" facs="#pag75_line17"/>
 					luzione<pc>,</pc> ma oggi nessuno oserebbe<pc>,</pc>
 					<lb xml:id="pag75-line18" n="18" facs="#pag75_line18"/>
-					in questo secolo di miscredenti<pc>,</pc> <del rend="overstrike" hand="#EA">di<pc>=</pc>
+					in questo secolo di miscredenti<pc>,</pc> di
 					<lb xml:id="pag75-line19" n="19" facs="#pag75_line19"/>
-					chiarare</del><pc>:</pc> predicare<pc>:</pc>
+					*cancellato(dichiarare)* predicare<pc>:</pc>
 					<lb xml:id="pag75-line20" n="20" facs="#pag75_line20"/>
-						<l>L’unione e l’amore</l>
+						L’unione e l’amore
 					<lb xml:id="pag75-line21" n="21" facs="#pag75_line21"/>
-						<l>rivelano ai popoli</l>
+						rivelano ai popoli
 					<lb xml:id="pag75-line22" n="22" facs="#pag75_line22"/>
-						<l>la via del Signore <del rend="overstrike" hand="#EA">e to</del> oppure</l>
+						la via del Signore *riga sopra* oppure
 				</ab>
 				<pb facs="#pag76" n="76"/>
 				<ab>
 					<lb xml:id="pag76-line1" n="23" facs="#pag76_line1"/>
-					E vi dico in verità<pc>:</pc> 
-					<choice>
-						<sic>Quando</sic>
-						<corr>quando</corr>
-					</choice> 
-					il <gap reason="ink blot"></gap>
+					E vi dico in verità<pc>:</pc> quando il pop*cancellatura*
 					<lb xml:id="pag76-line2" n="24" facs="#pag76_line2"/>
-					<gap reason="illegible"></gap>si mette alla sua testa ha una folgore
+					%%% si mette alla sua testa ha una folgore
 					<lb xml:id="pag76-line3" n="25" facs="#pag76_line3"/>
 					gli da'<pc>.</pc>
 				</ab>
@@ -503,7 +472,7 @@
 					<lb xml:id="pag76-line5" n="27" facs="#pag76_line5"/>
 					sticismo<pc>,</pc> cioè *coso sporco* la teoria eroica di
 					<lb xml:id="pag76-line6" n="28" facs="#pag76_line6"/>
-					<persName ref="#GA">D’Annunzio</persName> è apertamente criticata<pc>.</pc>
+					D’Annunzio è apertamente criticata<pc>.</pc>
 				</ab>
 				<ab>
 					<lb xml:id="pag76-line7" n="29" facs="#pag76_line7"/>
@@ -524,30 +493,25 @@
 				<ab>
 					Tornando al primo discorso<pc>,</pc>
 					<lb xml:id="pag76-line14" n="36" facs="#pag76_line14"/>
-					spero di potermi <del rend="overstrike" hand="#EA">farmi</del> unire almeno a
+					spero di potermi (farmi) unire almeno a
 					<lb xml:id="pag76-line15" n="37" facs="#pag76_line15"/>
 					papà<pc>,</pc> quando sarò nella nuova
 					<lb xml:id="pag76-line16" n="38" facs="#pag76_line16"/>
 					formazione<pc>.</pc>
 				</ab>
 				<ab> 
-					Il 
-					<choice>
-						<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
-						<expan>Partito d'Azione</expan>
-					</choice> 
-					si trova nel
+					Il P<pc>.</pc>d<pc>.</pc>A si trova nel
 					<lb xml:id="pag76-line17" n="39" facs="#pag76_line17"/>
 					solito contrasto col clan anche nel piccolo
 					<lb xml:id="pag76-line18" n="40" facs="#pag76_line18"/>
-					settore di <del rend="scribble"><gap reason="illegible" atLeast="7" atMost="10" unit="chars"></gap></del>
+					settore di cl<pc>.</pc>------
 				</ab>
 				<ab>
 					Avevo costituito
 					<lb xml:id="pag76-line19" n="41" facs="#pag76_line19"/>
 					un piccolo centro nostro in luglio-agosto<pc>,</pc>
 					<lb xml:id="pag76-line20" n="42" facs="#pag76_line20"/>
-					con <del rend="overstrike" hand="#EA">parecchi</del> quattro o cinque aderenti<pc>,</pc>
+					con ----- quattro o cinque aderenti<pc>,</pc>
 					<lb xml:id="pag76-line21" n="43" facs="#pag76_line21"/>
 					che ora sono tra i giovani più attivi<pc>,</pc>
 					<lb xml:id="pag76-line22" n="44" facs="#pag76_line22"/>
@@ -555,7 +519,7 @@
 
 					<pb facs="#pag77" n="77"/>
 					<lb xml:id="pag77-line1" n="45" facs="#pag77_line1"/>
-					<unclear reason="ink blot" cert="high">assunto</unclear> la direzione del movimento
+					assunto la direzione del movimento
 					<lb xml:id="pag77-line2" n="46" facs="#pag77_line2"/>
 					e si sono imposti sia col loro ardimento
 					<lb xml:id="pag77-line3" n="47" facs="#pag77_line3"/>
@@ -563,29 +527,21 @@
 					<lb xml:id="pag77-line4" n="48" facs="#pag77_line4"/>
 					approfittando della pochezza dei nostri
 					<lb xml:id="pag77-line5" n="49" facs="#pag77_line5"/>
-					capi<pc>:</pc> c’è un certo <persName>Camandona</persName> che<pc>,</pc>
+					capi<pc>:</pc> c’è un certo Lamandava che<pc>,</pc>
 					<lb xml:id="pag77-line6" n="50" facs="#pag77_line6"/>
 					anima e corpo<pc>,</pc> si dà alla guerra<pc>.</pc>
 				</ab>
 				<ab>
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
-					Invece <abbr>L<pc>.</pc>D<pc>.</pc></abbr> venuto una sola volta<pc>,</pc>
+					Invece L<pc>.</pc>D<pc>.</pc> venuto una sola volta<pc>,</pc>
 					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>
-					ha fatto una pessima figura 
-					<choice>
-						<sic>perchè</sic>
-						<corr>perché</corr>
-					</choice>
+					ha fatto una pessima figura perchè
 					<lb xml:id="pag77-line9" n="53" facs="#pag77_line9"/>
 					non aveva denari per tornare a casa e
 					<lb xml:id="pag77-line10" n="54" facs="#pag77_line10"/>
-					ha dovuto farseli imprestare *macchia* 
-					<choice>
-						<sic>nè</sic>
-						<corr>né</corr>
-					</choice> li
+					ha dovuto farseli imprestare *macchia* ne li
 					<lb xml:id="pag77-line11" n="55" facs="#pag77_line11"/>
-					ha più restituiti sia consigliando
+					ha più restituiti già(<pc>?</pc>) consigliando
 					<lb xml:id="pag77-line12" n="56" facs="#pag77_line12"/>
 					di bruciare gli stampati comunisti<pc>.</pc>
 				</ab>
@@ -600,19 +556,19 @@
 				<ab>
 					Oggi riferivo
 					<lb xml:id="pag77-line16" n="60" facs="#pag77_line16"/>
-					questo a G<pc>:</pc> con lui si diceva che il
+					questo a G<pc>:</pc> con lui si si diceva che il
 					<lb xml:id="pag77-line17" n="61" facs="#pag77_line17"/>
 					nostro programma è più adatto alle
 					<lb xml:id="pag77-line18" n="62" facs="#pag77_line18"/>
 					condizioni dell'Italia<pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
 					<lb xml:id="pag77-line19" n="63" facs="#pag77_line19"/>
-					ghesi<pc>,</pc> <del type="truncation" rend="overstrike">conta</del> parte dei contadini <del type="truncation" rend="overstrike">pa</del> ci
+					ghesi<pc>,</pc> *cancellatura* parte dei contadini *cancellatura* ci
 					<lb xml:id="pag77-line20" n="64" facs="#pag77_line20"/>
 					seguono<pc>,</pc> ma la nostra classe dirigente
 					<lb xml:id="pag77-line21" n="65" facs="#pag77_line21"/>
 					è priva di decisione<pc>,</pc> priva di fede
 					<lb xml:id="pag77-line22" n="66" facs="#pag77_line22"/>
-					<gap reason="ink blot"></gap><pc>.</pc>
+					*macchia*<pc>.</pc>
 				</ab>
 
 				<pb facs="#pag78" n="78" />
@@ -621,12 +577,7 @@
 				<!-- <dateline>18</dateline> -->
 				<ab>
 					<lb xml:id="pag78-line2" n="68" facs="#pag78_line2"/>
-					Ieri non scrissi niente 
-					<choice>
-						<sic>perchè</sic>
-						<corr>perché</corr>
-					</choice> 
-					andai a
+					Ieri non scrissi niente perchè andai a
 					<lb xml:id="pag78-line3" n="69" facs="#pag78_line3"/>
 					T<pc>.</pc> P<pc>:</pc> quando viaggio non ho tempo
 					<lb xml:id="pag78-line4" n="70" facs="#pag78_line4"/>
@@ -635,12 +586,12 @@
 				<ab>
 					Mi trovai bene con
 					<lb xml:id="pag78-line5" n="71" facs="#pag78_line5"/>
-					F<pc>.</pc><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
+					%%%<pc>,</pc> nella mattina<pc>.</pc>
 				</ab>
 				<ab>
 					Vidi anche
 					<lb xml:id="pag78-line6" n="72" facs="#pag78_line6"/>
-					<persName>Mariella</persName><pc>:</pc> freddezza dalle sue
+					Mariella<pc>:</pc> freddezza dalle sue
 					<lb xml:id="pag78-line7" n="73" facs="#pag78_line7"/>
 					parti<pc>.</pc>
 				</ab>
@@ -673,14 +624,9 @@
 					<lb xml:id="pag78-line18" n="84" facs="#pag78_line18"/>
 					un piacere sadico nella sua mal<pc>=</pc>
 					<lb xml:id="pag78-line19" n="85" facs="#pag78_line19"/>
-					vagità<pc>,</pc> mi pareva di lottare fisicamente
+					vagità<pc>,</pc> mi pareva di lottare finalmente
 					<lb xml:id="pag78-line20" n="86" facs="#pag78_line20"/>
-					con una 
-					<subst>
-						<del rend="overstrike">donna forte e</del> 
-						<add place="above">amazzone</add>
-					</subst>
-					 spietata e 
+					con una donna amazzone (forte) e spietata e 
 					<lb xml:id="pag78-line21" n="87" facs="#pag78_line21"/>
 					violenta<pc>,</pc> che impiegasse su di me
 					<lb xml:id="pag78-line22" n="88" facs="#pag78_line22"/>
@@ -695,36 +641,22 @@
 					<lb xml:id="pag79-line2" n="90" facs="#pag79_line2"/>
 					Quando uscì<pc>,</pc> F<pc>.</pc> osservò che M<pc>.</pc> è sempre
 					<lb xml:id="pag79-line3" n="91" facs="#pag79_line3"/>
-					sicura di 
-					<choice>
-						<sic>sè</sic>
-						<corr>sé</corr>
-					</choice>
-					<pc>,</pc> piena di energia e io
+					sicura di sè<pc>,</pc> piena di energia e io
 					<lb xml:id="pag79-line4" n="92" facs="#pag79_line4"/>
 					lamentai che mancasse di spiritualità
 					<lb xml:id="pag79-line5" n="93" facs="#pag79_line5"/>
-					il che coincide<pc>,</pc> 
-					<choice>
-						<sic>perchè</sic>
-						<corr>perché</corr>
-					</choice> 
-					la spiritualità
+					il che coincide<pc>,</pc> perchè la spiritualità
 					<lb xml:id="pag79-line6" n="94" facs="#pag79_line6"/>
 					sorge dal tormento interno<pc>,</pc> dal 
 					<lb xml:id="pag79-line7" n="95" facs="#pag79_line7"/>
 					dubbio<pc>,</pc> dal rimorso<pc>,</pc> dalla voce
 					<lb xml:id="pag79-line8" n="96" facs="#pag79_line8"/>
-					della coscienza che si sdoppia<pc>:</pc> 
-					<choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
-					</choice>
+					della coscienza che si sdoppia<pc>:</pc> M<pc>.</pc>
 					<lb xml:id="pag79-line9" n="97" facs="#pag79_line9"/>
 					manca di tutto questo<pc>.</pc>
 				</ab>
 				<ab>
-					<del rend="overstrike" type="truncation">Non vogli</del>
+					*Non vogli*
 					<lb xml:id="pag79-line10" n="98" facs="#pag79_line10"/>
 					Sono troppo onesto e troppo intelli<pc>=</pc>
 					<lb xml:id="pag79-line11" n="99" facs="#pag79_line11"/>
@@ -734,25 +666,11 @@
 					<lb xml:id="pag79-line13" n="101" facs="#pag79_line13"/>
 					l'uva che non sa raggiungere<pc>:</pc>
 					<lb xml:id="pag79-line14" n="102" facs="#pag79_line14"/>
-					<del rend="overstrike" type="truncation">Dichia</del> 
-					<choice>
-						<sic>Mi</sic>
-						<corr>mi</corr>
-					</choice>
-					 ridico che non sposo 
-					 <choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
-					</choice>
+					*cancellatura* Mi ridico che non sposo M<pc>.</pc>
 					<lb xml:id="pag79-line15" n="103" facs="#pag79_line15"/>
-					perchè 
-					<choice>
-						<abbr>M<pc>.</pc></abbr>
-						<expan>Mariella</expan>
-					</choice>
-					 non mi vuole<pc>,</pc> ma <del rend="overstrike" type="truncation">dev</del>
+					perchè M<pc>.</pc> non mi vuole<pc>,</pc> ma devo
 					<lb xml:id="pag79-line16" n="104" facs="#pag79_line16"/>
-					posso ammettere che ora le ri<pc>=</pc>
+					spesso ammettere che ora le ri<pc>=</pc>
 					<lb xml:id="pag79-line17" n="105" facs="#pag79_line17"/>
 					conosco dei difetti irritanti che
 					<lb xml:id="pag79-line18" n="106" facs="#pag79_line18"/>
@@ -762,12 +680,12 @@
 					<lb xml:id="pag79-line20" n="108" facs="#pag79_line20"/>
 					vano<pc>.</pc>
 				</ab>
-				<ab><add place="inline bottom">
-				Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
+				<ab> <!-- OCCHIO CHE QUESTO è IL TESTO AGGIUNTO (add)-->
+				(Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
 					amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
 					muore di sete E m'offri un frutto fresco
-					e velenoso<pc>.</pc>
-				</add></ab>
+					e velenoso<pc>.</pc>)
+				</ab>
 				<ab>
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
 					Ai M<pc>.</pc> ripetei il mio concetto<pc>.</pc>
@@ -775,11 +693,7 @@
 				<ab>
 					Il
 					<lb xml:id="pag79-line22" n="110" facs="#pag79_line22"/>
-					<choice>
-						<abbr type="acronym">P<pc>.</pc>d<pc>.</pc>A</abbr>
-						<expan>Partito d'Azione</expan>
-					</choice>  
-					deve essere partito di
+					P<pc>.</pc>d<pc>.</pc>A<pc>.</pc> deve essere partito di
 				</ab>
 			</div>
 		</body>
