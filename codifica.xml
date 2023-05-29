@@ -132,6 +132,11 @@
 						<birth when="1915-06-23"/>
 						<death when="1944-04-07"/>
 					</person>
+					<person xml:id="GM">
+						<persName>Goffredo Mameli</persName>
+						<birth when="1827-09-05"/>
+						<death when="1849-07-06"/>
+					</person>
 					<person xml:id="GA">
 						<persName>Gabriele D'Annunzio</persName>
 						<birth when="1863-03-12"/>
@@ -476,11 +481,20 @@
 					<lb xml:id="pag75-line19" n="19" facs="#pag75_line19"/>
 					chiarare</del><pc>:</pc> predicare<pc>:</pc>
 					<lb xml:id="pag75-line20" n="20" facs="#pag75_line20"/>
-						<l>L’unione e l’amore</l>
-					<lb xml:id="pag75-line21" n="21" facs="#pag75_line21"/>
-						<l>rivelano ai popoli</l>
-					<lb xml:id="pag75-line22" n="22" facs="#pag75_line22"/>
-						<l>la via del Signore <del rend="overstrike" hand="#EA">e to</del> oppure</l>
+					<cit>
+						<quote>
+							<l>L’unione e l’amore</l>
+							<lb xml:id="pag75-line21" n="21" facs="#pag75_line21"/>
+							<l>rivelano ai popoli</l>
+							<lb xml:id="pag75-line22" n="22" facs="#pag75_line22"/>
+							<l>le vie del Signore</l>
+						</quote>
+						<bibl>
+							<title>Canto nazionale</title>
+							<author><persName ref="#GM">Goffredo Mameli</persName></author>
+						</bibl>
+					</cit>
+					 <del rend="overstrike" hand="#EA">e to</del> oppure
 				</ab>
 				<pb facs="#pag76" n="76"/>
 				<ab>
