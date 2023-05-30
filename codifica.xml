@@ -607,7 +607,7 @@
 					<lb xml:id="pag77-line9" n="53" facs="#pag77_line9"/>
 					non aveva denari per tornare a casa e
 					<lb xml:id="pag77-line10" n="54" facs="#pag77_line10"/>
-					ha dovuto farseli imprestare *macchia* 
+					ha dovuto farseli imprestare <g ref="#heavyMinusSign">➖</g>
 					<choice>
 						<sic>nè</sic>
 						<corr>né</corr>
@@ -701,8 +701,8 @@
 					volte verso di me<pc>:</pc> trovavo
 					<lb xml:id="pag78-line18" n="84" facs="#pag78_line18"/>
 					un piacere sadico nella sua mal<pc>=</pc>
-					<lb xml:id="pag78-line19" n="85" facs="#pag78_line19"/>
-					vagità<pc>,</pc> mi pareva di lottare fisicamente
+					<lb xml:id="pag78-line19" n="85" facs="#pag78_line19" />
+					vagità<pc>,</pc> mi pareva di lottare <w rend="descending" >fisicamente</w>
 					<lb xml:id="pag78-line20" n="86" facs="#pag78_line20"/>
 					con una 
 					<subst>
