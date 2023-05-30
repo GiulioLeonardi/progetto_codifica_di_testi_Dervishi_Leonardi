@@ -521,7 +521,11 @@
 				<ab>
 					Con quell’evangelico<pc>:</pc> in ve<pc>=</pc>
 					<lb xml:id="pag76-line4" n="26" facs="#pag76_line4"/>
-					rità Il lato deteriore di questo mi<pc>=</pc>
+					rità 
+					<choice>
+						<sic>Il</sic>
+						<corr>il</corr>
+					</choice> lato deteriore di questo mi<pc>=</pc>
 					<lb xml:id="pag76-line5" n="27" facs="#pag76_line5"/>
 					sticismo<pc>,</pc> cioè <pc>:</pc> la teoria eroica di
 					<lb xml:id="pag76-line6" n="28" facs="#pag76_line6"/>
@@ -589,7 +593,7 @@
 					<lb xml:id="pag77-line5" n="49" facs="#pag77_line5"/>
 					capi<pc>:</pc> c’è un certo <persName>Camandona</persName> che<pc>,</pc>
 					<lb xml:id="pag77-line6" n="50" facs="#pag77_line6"/>
-					anima e corpo<pc>,</pc> si dà alla guerra<pc>.</pc>
+					anima e <w rend="ink blot">corpo</w><pc>,</pc> si dà alla guerra<pc>.</pc>
 				</ab>
 				<ab>
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
@@ -821,7 +825,7 @@
 							<expan>Partito d'Azione</expan>
 						</choice>
 					</orgName>  
-					deve essere un partito di
+					deve essere <seg type="phrase" rend="scribble">un partito</seg> di
 				</ab>
 			</div>
 		</body>
