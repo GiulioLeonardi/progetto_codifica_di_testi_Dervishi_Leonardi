@@ -419,7 +419,7 @@
 
 
 			<zone xml:id="aggiunta_pag79" points = ' 205,814 689,818 742,845 737,907 740,972 715,999 280,1009 147,1002 122,989 123,955 143,937 186,935 268,941 343,939 643,939 688,930 705,904 703,883 691,874 670,863 624,858 565,857 521,863 461,868 423,862 378,858 341,860 272,859 215,859 197,841 ' />
-			<note>Testo aggiunto successivamente dall'autore</note>
+			<note>Frase aggiunta successivamente dall'autore.</note>
 			<metamark target="#agg_pag79" function="insertion">Linea che segnala l'andamento dell'aggiunta testuale.</metamark>
 		</surface>
 	
@@ -804,10 +804,13 @@
 				</ab>
 				<ab>
 					<add xml:id="agg_pag79" facs="#aggiunta_pag79" place="inline bottom">
-						Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
-						amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
-						muore di sete E m'offri un frutto fresco
-						e velenoso<pc>.</pc>
+						Allora scrivevo<pc>:</pc> 
+						<quote>
+							Quando mi chiedi<pc>,</pc> 
+							amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
+							muore di sete E m'offri un frutto fresco
+							e velenoso<pc>.</pc>
+						</quote>
 					</add>
 				</ab>
 				<ab>
