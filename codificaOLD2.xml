@@ -109,14 +109,6 @@
 			<refsDecl>
 				<p>I riferimenti degli elementi sono stati realizzati attraverso le coppie di attributi <att>xml:id</att> e <att>ref</att>.</p>
 			</refsDecl>
-
-			<charDecl>
-                <glyph xml:id="heavyMinusSign">
-                    <localProp name="name" value="trattino grassetto"/>
-                    <mapping type="Unicode">U+2796</mapping>
-                </glyph>
-            </charDecl>
-
 		</encodingDesc>
 
 		<profileDesc>
@@ -642,8 +634,7 @@
 				<pb facs="#pag78" n="78" />
 				
 				<lb xml:id="pag78-line1" n="67" facs="#pag78_line1"/>
-				<ab type="dateline" xml:id="dlpag78"><date when="---18">18</date></ab>
-				<certainty target="#dlpag78" locus="name"><desc>Riteniamo che questo numero possa essere una data in quanto a pagina 70 della fonte si trova il numero 16, a pagina 78 si passa direttamente al numero 18 e nel primo paragrafo l’autore dichiara di non aver scritto nulla il giorno precedente; questo spiegherebbe la mancanza del 17, confermando l’ipotesi che si tratti del giorno del mese in cui scrive.</desc></certainty>
+				<ab type='dateline'><date when="---18">18</date></ab>
 				<ab>
 					<lb xml:id="pag78-line2" n="68" facs="#pag78_line2"/>
 					Ieri non scrissi niente 
@@ -821,7 +812,7 @@
 							<expan>Partito d'Azione</expan>
 						</choice>
 					</orgName>  
-					deve essere un partito di
+					deve essere partito di
 				</ab>
 			</div>
 		</body>
