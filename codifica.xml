@@ -362,6 +362,7 @@
 			<zone xml:id="pag78_line22" ulx="86" uly="899" lrx="683" lry="942" />
 			<note>Riga 22</note>
 		
+
 		</surface>
 
 
@@ -415,6 +416,11 @@
 			<note>Riga 21</note>
 			<zone xml:id="pag79_line22" ulx="89" uly="891" lrx="699" lry="935" />
 			<note>Riga 22</note>
+
+
+			<zone xml:id="aggiunta_pag79" points = ' 205,814 689,818 742,845 737,907 740,972 715,999 280,1009 147,1002 122,989 123,955 143,937 186,935 268,941 343,939 643,939 688,930 705,904 703,883 691,874 670,863 624,858 565,857 521,863 461,868 423,862 378,858 341,860 272,859 215,859 197,841 ' />
+			<note>Testo aggiunto successivamente dall'autore</note>
+			<metamark target="#agg_pag79" function="insertion">Linea che segnala l'andamento dell'aggiunta testuale.</metamark>
 		</surface>
 	
 	
@@ -566,9 +572,9 @@
 					</orgName> 
 					si trova nel
 					<lb xml:id="pag76-line17" n="39" facs="#pag76_line17"/>
-					solito contrasto col <abbr>Com</abbr> anche nel piccolo
+					solito contrasto col <abbr type="suspension">Com</abbr> anche nel piccolo
 					<lb xml:id="pag76-line18" n="40" facs="#pag76_line18"/>
-					settore di Ca<del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
+					settore di <abbr type="suspension">Ca</abbr><del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
 				</ab>
 				<ab>
 					Avevo costituito
@@ -579,7 +585,7 @@
 					<lb xml:id="pag76-line21" n="43" facs="#pag76_line21"/>
 					che ora sono tra i giovani più attivi<pc>,</pc>
 					<lb xml:id="pag76-line22" n="44" facs="#pag76_line22"/>
-					ma alla mia partenza i <abbr>com</abbr> hanno
+					ma alla mia partenza i <abbr type="suspension">com</abbr> hanno
 
 					<pb facs="#pag77" n="77"/>
 					<lb xml:id="pag77-line1" n="45" facs="#pag77_line1"/>
@@ -597,7 +603,7 @@
 				</ab>
 				<ab>
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
-					Invece <persName><abbr>L<pc>.</pc>D<pc>.</pc></abbr></persName> venuto una sola volta<pc>,</pc>
+					Invece <abbr type="initial">L<pc>.</pc>D<pc>.</pc></abbr> venuto una sola volta<pc>,</pc>
 					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>
 					ha fatto una pessima figura 
 					<choice>
@@ -621,14 +627,14 @@
 					<lb xml:id="pag77-line13" n="57" facs="#pag77_line13"/>
 					Ho fatto fatica a persuadere 
 					<lb xml:id="pag77-line14" n="58" facs="#pag77_line14"/>
-					<persName><abbr>Ga</abbr></persName> a non giudicare da lui tutta
+					<abbr type="initial">Ga</abbr> a non giudicare da lui tutta
 					<lb xml:id="pag77-line15" n="59" facs="#pag77_line15"/>
-					la personalità del <abbr>P</abbr><pc>.</pc>
+					la personalità del <abbr type="suspension">P</abbr><pc>.</pc>
 				</ab>
 				<ab>
 					Oggi riferivo
 					<lb xml:id="pag77-line16" n="60" facs="#pag77_line16"/>
-					questo a <persName><abbr>G</abbr></persName><pc>:</pc> con lui si diceva che il
+					questo a <abbr type="initial">G</abbr><pc>:</pc> con lui si diceva che il
 					<lb xml:id="pag77-line17" n="61" facs="#pag77_line17"/>
 					nostro programma è più adatto alle
 					<lb xml:id="pag77-line18" n="62" facs="#pag77_line18"/>
@@ -657,14 +663,14 @@
 					</choice> 
 					andai a
 					<lb xml:id="pag78-line3" n="69" facs="#pag78_line3"/>
-					<placeName><abbr>T<pc>.</pc> P</abbr></placeName><pc>:</pc> quando viaggio non ho tempo
+					<abbr type="geographic">T<pc>.</pc> P</abbr><pc>:</pc> quando viaggio non ho tempo
 					<lb xml:id="pag78-line4" n="70" facs="#pag78_line4"/>
 					di scrivere<pc>.</pc>
 				</ab>
 				<ab>
 					Mi trovai bene con
 					<lb xml:id="pag78-line5" n="71" facs="#pag78_line5"/>
-					<persName><abbr>F<pc>.</pc></abbr></persName><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
+					<abbr type="initial">F<pc>.</pc></abbr><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
 				</ab>
 				<ab>
 					Vidi anche
@@ -690,7 +696,7 @@
 					<lb xml:id="pag78-line13" n="79" facs="#pag78_line13"/>
 					mamma e della zia<pc>,</pc> che sono
 					<lb xml:id="pag78-line14" n="80" facs="#pag78_line14"/>
-					un peso morto e trattò male <persName><abbr>F</abbr></persName><pc>.</pc>
+					un peso morto e trattò male <abbr type="initial">F</abbr><pc>.</pc>
 				</ab>
 				<ab>
 					<lb xml:id="pag78-line15" n="81" facs="#pag78_line15"/>
@@ -722,13 +728,11 @@
 
 				<ab>
 					<lb xml:id="pag79-line2" n="90" facs="#pag79_line2"/>
-					Quando uscì<pc>,</pc> <persName><abbr>F<pc>.</pc></abbr></persName> osservò che 
-					<persName>
-						<choice>
-							<abbr>M<pc>.</pc></abbr>
-							<expan>Marcella</expan>
-						</choice>
-					</persName>
+					Quando uscì<pc>,</pc> <abbr type="initial">F<pc>.</pc></abbr> osservò che 
+					<choice>
+						<abbr type="initial">M<pc>.</pc></abbr>
+						<expan><persName>Marcella</persName></expan>
+					</choice>
 					 è sempre
 					<lb xml:id="pag79-line3" n="91" facs="#pag79_line3"/>
 					sicura di 
@@ -752,12 +756,10 @@
 					dubbio<pc>,</pc> dal rimorso<pc>,</pc> dalla voce
 					<lb xml:id="pag79-line8" n="96" facs="#pag79_line8"/>
 					della coscienza che si sdoppia<pc>:</pc> 
-					<persName>
-						<choice>
-							<abbr>M<pc>.</pc></abbr>
-							<expan>Marcella</expan>
-						</choice>
-					</persName>
+					<choice>
+						<abbr type="initial">M<pc>.</pc></abbr>
+						<expan><persName>Marcella</persName></expan>
+					</choice>
 					<lb xml:id="pag79-line9" n="97" facs="#pag79_line9"/>
 					manca di tutto questo<pc>.</pc>
 				</ab>
@@ -778,20 +780,16 @@
 						<corr>mi</corr>
 					</choice>
 					 ridico che non sposo 
-					 <persName>
-						<choice>
-							<abbr>M<pc>.</pc></abbr>
-							<expan>Marcella</expan>
-						</choice>
-					</persName>
+					 <choice>
+						<abbr type="initial">M<pc>.</pc></abbr>
+						<expan><persName>Marcella</persName></expan>
+					</choice>
 					<lb xml:id="pag79-line15" n="103" facs="#pag79_line15"/>
 					perchè 
-					<persName>
-						<choice>
-							<abbr>M<pc>.</pc></abbr>
-							<expan>Marcella</expan>
-						</choice>
-					</persName>
+					<choice>
+						<abbr type="initial">M<pc>.</pc></abbr>
+						<expan><persName>Marcella</persName></expan>
+					</choice>
 					 non mi vuole<pc>,</pc> ma <del rend="overstrike" type="truncation">dev</del>
 					<lb xml:id="pag79-line16" n="104" facs="#pag79_line16"/>
 					posso ammettere che ora le ri<pc>=</pc>
@@ -805,7 +803,7 @@
 					vano<pc>.</pc>
 				</ab>
 				<ab>
-					<add place="inline bottom">
+					<add xml:id="agg_pag79" facs="#aggiunta_pag79" place="inline bottom">
 						Allora scrivevo<pc>:</pc> Quando mi chiedi<pc>,</pc> 
 						amore<pc>,</pc> se ti sposo<pc>,</pc> Sono un meschino che
 						muore di sete E m'offri un frutto fresco
@@ -814,7 +812,7 @@
 				</ab>
 				<ab>
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
-					Ai <abbr>M<pc>.</pc></abbr> ripetei il mio concetto<pc>.</pc>
+					Ai <abbr type="suspension">M<pc>.</pc></abbr> ripetei il mio concetto<pc>.</pc>
 				</ab>
 				<ab>
 					Il
