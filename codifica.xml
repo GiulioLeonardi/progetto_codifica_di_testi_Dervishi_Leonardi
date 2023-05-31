@@ -14,7 +14,7 @@
 	
 			<editionStmt>
 				<edition>
-					<!-- Scrivi ilaria una presentazione del progetto unitario che ne so-->
+					Progetto realizzato come esame per il corso di Codifica di Testi 2022/2023.
 				</edition>
 				<respStmt>
 					<resp>Conversione TEI P5 a cura di:</resp>
@@ -56,10 +56,10 @@
 						<objectDesc>
 							<supportDesc>
 								<support>Fogli di carta</support>
-								<extent>174 pagine totali: 172 dei diari di <persName ref="#EA">Emanuele Artom</persName>, 2 della lettera originale della madre Amalia.</extent>
+								<extent>174 pagine totali; 172 dei diari di <persName ref="#EA">Emanuele Artom</persName>, 2 della lettera originale della madre Amalia.</extent>
 							</supportDesc>
 							<layoutDesc>
-								<p>Ogni pagina è formata da un'unica colonna e da 22 righe; ci sono essere delle frasi, inserite successivamente, tra due righe regolari e che sforano il margine della pagine.</p>
+								<p>Normalmente ogni pagina è formata da un'unica colonna e da 22 righe.</p>
 							</layoutDesc>
 						</objectDesc>
 						<handDesc>
