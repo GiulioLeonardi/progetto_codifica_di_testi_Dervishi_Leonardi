@@ -62,9 +62,8 @@
       </div>
       <div id="principale">
          <div class="trascr_pag">
-            <h3 id="iniz_75" class="iniz_pag">Inizio pagina 75:
-               
-               </h3>
+            <div id="iniz_75">Inizio pagina 75:
+               <img></div>
             					
             					<strike> </strike> parte delle bande e taccio
             					
@@ -130,7 +129,7 @@
             						
             					 <strike>e to</strike> oppure
             				
-            <h3 id="iniz_76" class="iniz_pag">Inizio pagina 76:</h3>
+            <div id="iniz_76">Inizio pagina 76:</div>
             					
             					E vi dico in verità: 
             					<mark class="sic">Quando</mark>quando 
@@ -193,7 +192,7 @@
             					ma alla mia partenza i com hanno
             
             					
-            <h3 id="iniz_77" class="iniz_pag">Inizio pagina 77:</h3>
+            <div id="iniz_77">Inizio pagina 77:</div>
             					
             					assunto la direzione del movimento
             					
@@ -245,7 +244,7 @@
             					
             					vera.
             				
-            <h3 id="iniz_78" class="iniz_pag">Inizio pagina 78:</h3>18Riteniamo che questo numero possa essere una data in quanto a pagina 70 della fonte
+            <div id="iniz_78">Inizio pagina 78:</div>18Riteniamo che questo numero possa essere una data in quanto a pagina 70 della fonte
             si trova il numero 16, a pagina 78 si passa direttamente al numero 18 e nel primo
             paragrafo l’autore dichiara di non aver scritto nulla il giorno precedente; questo
             spiegherebbe la mancanza del 17, confermando l’ipotesi che si tratti del giorno del
@@ -306,7 +305,7 @@
             					tutte le sue forze senza riguardo,
             
             					
-            <h3 id="iniz_79" class="iniz_pag">Inizio pagina 79:</h3>
+            <div id="iniz_79">Inizio pagina 79:</div>
             					
             					ma questa morbosa passione è finita.
             				

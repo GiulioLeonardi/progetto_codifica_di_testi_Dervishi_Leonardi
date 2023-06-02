@@ -22,6 +22,8 @@
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
                 <!-- nostro foglio di stile -->
                 <link rel="stylesheet" type="text/css" href="stile.css" />
+
+                <script src='javascript.js'></script>
             </head>
 
             <body>
@@ -35,6 +37,28 @@
                         <ul>
                             <xsl:apply-templates select="//tei:encodingDesc//[tei:editorialDecl | tei:refsDecl]"/>
                         </ul>
+                    </div>
+                </div>
+
+                <div id='div_bottoni'>
+                    <p><b>Seleziona pagina:</b></p>
+                    <div id='bottoni_sel_pag' class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-secondary">75</button>
+                        <button type="button" class="btn btn-secondary">76</button>
+                        <button type="button" class="btn btn-secondary">77</button>
+                        <button type="button" class="btn btn-secondary">78</button>
+                        <button type="button" class="btn btn-secondary">79</button>
+                    </div>
+                </div>
+
+                <div id='principale'>
+
+                    <div class='trascr_pag'>
+                        <xsl:apply-templates select="//tei:text"/>
+                    </div>
+
+                    <div class='img_pag'>
+                    
                     </div>
                 </div>
                 
@@ -69,7 +93,7 @@
 
     <!--  sourceDesc -->
     <xsl:template match="tei:sourceDesc" mode="#default">
-        <button id='btn_mostra_info' class='btn btn-secondary'>Mostra di più</button>
+        <button id='btn_mostra_info' class='btn btn-secondary' onclick='mostra_altro()'>Mostra altro</button>
 
         <div id='sourceDesc' class='divinternointro'>
             <h3>Descrizione della fonte:</h3>
@@ -105,10 +129,49 @@
 
     
     <!-- encodingDesc -->
-    <xsl:template match="(tei:editorialDecl | tei:refsDecl)//*" mode="#default">
+    <xsl:template match="(tei:editorialDecl | tei:refsDecl)//tei:p" mode="#default">
         <li><xsl:value-of select="."/></li>
     </xsl:template>
 
+
+    
+
+    <xsl:template match="//tei:pb[@n='75']" mode="#default">
+        <h3 id='iniz_75'  class='iniz_pag'>Inizio pagina 75:
+            
+        </h3>
+    </xsl:template>
+
+    <xsl:template match="//tei:pb[@n='76']" mode="#default">
+        <h3 id='iniz_76' class='iniz_pag'>Inizio pagina 76:</h3>
+    </xsl:template>
+
+    <xsl:template match="//tei:pb[@n='77']" mode="#default">
+        <h3 id='iniz_77' class='iniz_pag'>Inizio pagina 77:</h3>
+    </xsl:template>
+
+    <xsl:template match="//tei:pb[@n='78']" mode="#default">
+        <h3 id='iniz_78' class='iniz_pag'>Inizio pagina 78:</h3>
+    </xsl:template>
+
+    <xsl:template match="//tei:pb[@n='79']" mode="#default">
+        <h3 id='iniz_79' class='iniz_pag'>Inizio pagina 79:</h3>
+    </xsl:template>
+
+
+  
+    <xsl:template match="tei:del" mode="#default">
+        <strike><xsl:value-of select="."/></strike>
+    </xsl:template>
+
+
+    <xsl:template match="tei:gap" mode="#default">
+        <mark class='gap'>---</mark>
+    </xsl:template>
+
+    <xsl:template match="tei:choice/tei:sic" mode="#default">
+        <mark class='sic'><xsl:value-of select="."/></mark>
+    </xsl:template>
     
 
 

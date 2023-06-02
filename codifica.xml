@@ -103,6 +103,7 @@
 
 				<interpretation>
 					<p>I nomi di persona e di luogo presenti nel testo sono marcati.</p>
+					<p>le date sono state segnalate con il tag <gi>date</gi></p>
 				</interpretation>
 			</editorialDecl>
 
@@ -431,7 +432,7 @@
 		<body>
 			<div>
 				<pb facs="#pag75" n="75"/>
-				<ab>
+				<ab n="1">
 					<lb xml:id="pag75-line1" n="1" facs="#pag75_line1"/>
 					<del hand="#EA"> <gap reason="cancelled" atLeast="4" atMost="6" unit="chars"/></del> parte delle bande e taccio
 					<lb xml:id="pag75-line2" n="2" facs="#pag75_line2"/>
@@ -445,7 +446,7 @@
 					<lb xml:id="pag75-line4" n="4" facs="#pag75_line4"/>
 					parlarne<pc>.</pc>
 				</ab>
-				<ab>
+				<ab n="2">
 					Forse tanti 
 					<subst>
 						<del rend="overtyped">
@@ -464,14 +465,14 @@
 					<lb xml:id="pag75-line8" n="8" facs="#pag75_line8"/>
 					nea semplicità<pc>.</pc>
 				</ab>
-				<ab>
+				<ab n="3">
 					Eppure anche 
 					<lb xml:id="pag75-line9" n="9" facs="#pag75_line9"/>
 					in questo campo si fanno grandi 
 					<lb xml:id="pag75-line10" n="10" facs="#pag75_line10"/>
 					progressi<pc>.</pc>
 				</ab>
-				 <ab>
+				 <ab n="4">
 					Il misticismo del secolo 
 					<lb xml:id="pag75-line11" n="11" facs="#pag75_line11"/>
 					scorso<pc>,</pc> causa ed effetto insieme
@@ -484,7 +485,7 @@
 					<lb xml:id="pag75-line15" n="15" facs="#pag75_line15"/>
 					ormai tramontato<pc>.</pc>
 				</ab>
-				<ab>
+				<ab n="5"> 
 					Non abbiamo<pc>,</pc>
 					<lb xml:id="pag75-line16" n="16" facs="#pag75_line16"/>
 					che io sappia<pc>,</pc> poeti della rivo<pc>=</pc>
