@@ -182,19 +182,52 @@
     </xsl:template>
 
 
-  
+
+
     <xsl:template match="tei:del" mode="#default">
-        <strike><xsl:value-of select="."/></strike>
+        <strike class='.del'><xsl:apply-templates select="tei:gap"/><xsl:value-of select="."/></strike>
+    </xsl:template>
+
+    <xsl:template match="tei:add" mode="#default">
+        <span class='add'>
+            <xsl:apply-templates select="tei:gap"/><xsl:value-of select="."/>
+        </span>
+    </xsl:template>
+
+    
+    <xsl:template match="tei:choice/tei:abbr" mode="#default">
+        <span class='choice_abbr_expan'>
+            <u class='abbr'><xsl:value-of select="."/></u>
+            <mark class='expan'><xsl:value-of select="following-sibling::tei:expan"/></mark>
+        </span>
+    </xsl:template>
+
+    <xsl:template match="tei:expan" mode="#default">
+        
     </xsl:template>
 
 
     <xsl:template match="tei:gap" mode="#default">
-        <mark class='gap'>---</mark>
+        <mark class='gap'>\\\</mark>
     </xsl:template>
 
     <xsl:template match="tei:choice/tei:sic" mode="#default">
-        <mark class='sic'><xsl:value-of select="."/></mark>
+        <span class='choice_sic_corr'>
+            <mark class='sic'><xsl:value-of select="."/></mark>
+            <mark class='corr'><xsl:value-of select="following-sibling::tei:corr"/></mark>
+        </span>
     </xsl:template>
+
+    
+    <xsl:template match="tei:corr" mode="#default">
+        
+    </xsl:template>
+
+
+    
+
+
+
     
 
 

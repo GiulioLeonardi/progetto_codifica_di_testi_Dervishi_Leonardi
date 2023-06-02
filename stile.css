@@ -50,7 +50,10 @@
 }
 
 .div_img_pag {
-    width: 100%
+    width: 100%;
+    padding-bottom: 0.5%;
+    border: none;
+    border-bottom: solid 2px rgb(228, 190, 36);
 }
 
 .img_pag {
@@ -106,6 +109,12 @@ h3 {
     margin-top: 2%;
 }
 
+h4 {
+    
+    margin-top: 0.5%;
+}
+
+
 #div_bottoni {
     text-align: center;
 }
@@ -119,12 +128,38 @@ h3 {
 
 
 
+mark {
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
 
 .gap {
     background-color: gray;
 }
 
+.sic {
+    background-color: orange;
+}
 
+.corr {
+    display: none;
+    background-color: rgb(151, 241, 115);
+}
+
+.add {
+    border: solid 1px rgb(6, 212, 6)
+}
+
+.sottoadd {
+    display: none;
+}
+
+.expan {
+    display: none;
+    border: solid 1px black;
+    margin-left: 1%;
+    margin-right: 1%;
+}
 
 
 
