@@ -57,8 +57,31 @@
                         <xsl:apply-templates select="//tei:text"/>
                     </div>
 
-                    <div class='img_pag'>
-                    
+                    <div class='div_graf'>
+                        <div class='div_img_pag' id='dip75'>
+                            <h4>Immagine pagina 75</h4>
+                            <img class='img_pag' src='75.jpg'/>
+                        </div>
+
+                        <div class='div_img_pag' id='dip76'>
+                            <h4>Immagine pagina 76</h4>
+                            <img class='img_pag' src='76.jpeg'/>
+                        </div>
+
+                        <div class='div_img_pag' id='dip77'>
+                            <h4>Immagine pagina 77</h4>
+                            <img class='img_pag' src='77.jpg'/>
+                        </div>
+
+                        <div class='div_img_pag' id='dip78'>
+                            <h4>Immagine pagina 78</h4>
+                            <img class='img_pag' src='78.jpg'/>
+                        </div>
+
+                        <div class='div_img_pag' id='dip79'>
+                            <h4>Immagine pagina 79</h4>
+                            <img class='img_pag' src='79.jpeg'/>
+                        </div>
                     </div>
                 </div>
                 
