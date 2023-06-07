@@ -103,7 +103,7 @@
 
 				<interpretation>
 					<p>I nomi di persona e di luogo presenti nel testo sono marcati.</p>
-					<p>le date sono state segnalate con il tag <gi>date</gi></p>
+					<p>le date sono state segnalate con il tag <gi>date</gi>.</p>
 				</interpretation>
 			</editorialDecl>
 
@@ -432,7 +432,7 @@
 		<body>
 			<div>
 				<pb facs="#pag75" n="75"/>
-				<ab n="1">
+				<ab type="period" xml:id="pag75_periodo1" n="1">
 					<lb xml:id="pag75-line1" n="1" facs="#pag75_line1"/>
 					<del hand="#EA"> <gap reason="cancelled" atLeast="4" atMost="6" unit="chars"/></del> parte delle bande e taccio
 					<lb xml:id="pag75-line2" n="2" facs="#pag75_line2"/>
@@ -446,7 +446,7 @@
 					<lb xml:id="pag75-line4" n="4" facs="#pag75_line4"/>
 					parlarne<pc>.</pc>
 				</ab>
-				<ab n="2">
+				<ab type="period" xml:id="pag75_periodo2" n="2">
 					Forse tanti 
 					<subst>
 						<del rend="overtyped">
@@ -461,39 +461,39 @@
 					<lb xml:id="pag75-line6" n="6" facs="#pag75_line6"/>
 					inibiscono di parlare di questi 
 					<lb xml:id="pag75-line7" n="7" facs="#pag75_line7"/>
-					argomenti con fresca e sponta<pc>=</pc>
-					<lb xml:id="pag75-line8" n="8" facs="#pag75_line8"/>
+					argomenti con fresca e sponta<pc type="return">=</pc>
+					<lb xml:id="pag75-line8" n="8" facs="#pag75_line8" break="no"/>
 					nea semplicità<pc>.</pc>
 				</ab>
-				<ab n="3">
+				<ab type="period" xml:id="pag75_periodo3" n="3">
 					Eppure anche 
 					<lb xml:id="pag75-line9" n="9" facs="#pag75_line9"/>
 					in questo campo si fanno grandi 
 					<lb xml:id="pag75-line10" n="10" facs="#pag75_line10"/>
 					progressi<pc>.</pc>
 				</ab>
-				 <ab n="4">
+				 <ab type="period" xml:id="pag75_periodo4" n="4">
 					Il misticismo del secolo 
 					<lb xml:id="pag75-line11" n="11" facs="#pag75_line11"/>
 					scorso<pc>,</pc> causa ed effetto insieme
 					<lb xml:id="pag75-line12" n="12" facs="#pag75_line12"/>
-					del concetto romantico e mazzi<pc>=</pc>
-					<lb xml:id="pag75-line13" n="13" facs="#pag75_line13"/>
+					del concetto romantico e mazzi<pc type="return">=</pc>
+					<lb xml:id="pag75-line13" n="13" facs="#pag75_line13" break="no"/>
 					niano delle nazioni che hanno 
 					<lb xml:id="pag75-line14" n="14" facs="#pag75_line14"/>
 					una missione da svolgere<pc>,</pc> è
 					<lb xml:id="pag75-line15" n="15" facs="#pag75_line15"/>
 					ormai tramontato<pc>.</pc>
 				</ab>
-				<ab n="5"> 
+				<ab type="period" xml:id="pag75_periodo5" n="5">
 					Non abbiamo<pc>,</pc>
 					<lb xml:id="pag75-line16" n="16" facs="#pag75_line16"/>
-					che io sappia<pc>,</pc> poeti della rivo<pc>=</pc>
-					<lb xml:id="pag75-line17" n="17" facs="#pag75_line17"/>
+					che io sappia<pc>,</pc> poeti della rivo<pc type="return">=</pc>
+					<lb xml:id="pag75-line17" n="17" facs="#pag75_line17" break="no"/>
 					luzione<pc>,</pc> ma oggi nessuno oserebbe<pc>,</pc>
 					<lb xml:id="pag75-line18" n="18" facs="#pag75_line18"/>
-					in questo secolo di miscredenti<pc>,</pc> <del rend="overstrike" hand="#EA">di<pc>=</pc>
-					<lb xml:id="pag75-line19" n="19" facs="#pag75_line19"/>
+					in questo secolo di miscredenti<pc>,</pc> <del rend="overstrike" hand="#EA">di<pc type="return">=</pc>
+					<lb xml:id="pag75-line19" n="19" facs="#pag75_line19" break="no"/>
 					chiarare</del><pc>:</pc> predicare<pc>:</pc>
 					<lb xml:id="pag75-line20" n="20" facs="#pag75_line20"/>
 					<cit>
@@ -512,7 +512,7 @@
 					 <del rend="overstrike" hand="#EA">e to</del> oppure
 				</ab>
 				<pb facs="#pag76" n="76"/>
-				<ab>
+				<ab type="period" xml:id="pag76_periodo1" n="6">
 					<lb xml:id="pag76-line1" n="23" facs="#pag76_line1"/>
 					E vi dico in verità<pc>:</pc> 
 					<choice>
@@ -525,27 +525,27 @@
 					<lb xml:id="pag76-line3" n="25" facs="#pag76_line3"/>
 					gli da'<pc>.</pc>
 				</ab>
-				<ab>
-					Con quell’evangelico<pc>:</pc> in ve<pc>=</pc>
-					<lb xml:id="pag76-line4" n="26" facs="#pag76_line4"/>
+				<ab type="period" xml:id="pag76_periodo2" n="7">
+					Con quell’evangelico<pc>:</pc> in ve<pc type="return">=</pc>
+					<lb xml:id="pag76-line4" n="26" facs="#pag76_line4" break="no"/>
 					rità 
 					<choice>
 						<sic>Il</sic>
 						<corr>il</corr>
-					</choice> lato deteriore di questo mi<pc>=</pc>
-					<lb xml:id="pag76-line5" n="27" facs="#pag76_line5"/>
-					sticismo<pc>,</pc> cioè <pc>:</pc> la teoria eroica di
+					</choice> lato deteriore di questo mi<pc type="return">=</pc>
+					<lb xml:id="pag76-line5" n="27" facs="#pag76_line5" break="no"/>
+					sticismo<pc>,</pc> cioè<pc>:</pc> la teoria eroica di
 					<lb xml:id="pag76-line6" n="28" facs="#pag76_line6"/>
 					<persName ref="#GA">D’Annunzio</persName> è apertamente criticata<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag76_periodo3" n="8">
 					<lb xml:id="pag76-line7" n="29" facs="#pag76_line7"/>
 					L’altra settimana in un rapporto di
 					<lb xml:id="pag76-line8" n="30" facs="#pag76_line8"/>
 					ufficiali il Comandante citava il
 					<lb xml:id="pag76-line9" n="31" facs="#pag76_line9"/>
-					motto <title>Ardisco non ordisco</title> coman<pc>=</pc>
-					<lb xml:id="pag76-line10" n="32" facs="#pag76_line10"/>
+					motto <title>Ardisco non ordisco</title> coman<pc type="return">=</pc>
+					<lb xml:id="pag76-line10" n="32" facs="#pag76_line10" break="no"/>
 					dando di ardire il meno possibile<pc>,</pc>
 					<lb xml:id="pag76-line11" n="33" facs="#pag76_line11"/>
 					pur di raggiungere lo scopo<pc>,</pc> ma 
@@ -554,7 +554,7 @@
 					<lb xml:id="pag76-line13" n="35" facs="#pag76_line13"/>
 					scopo<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag76_periodo4" n="9">
 					Tornando al primo discorso<pc>,</pc>
 					<lb xml:id="pag76-line14" n="36" facs="#pag76_line14"/>
 					spero di potermi <del rend="overstrike" hand="#EA">farmi</del> unire almeno a
@@ -563,7 +563,7 @@
 					<lb xml:id="pag76-line16" n="38" facs="#pag76_line16"/>
 					formazione<pc>.</pc>
 				</ab>
-				<ab> 
+				<ab type="period" xml:id="pag76_periodo5" n="10"> 
 					Il 
 					<orgName>
 						<choice>
@@ -577,7 +577,7 @@
 					<lb xml:id="pag76-line18" n="40" facs="#pag76_line18"/>
 					settore di <abbr type="suspension">Ca</abbr><del rend="scribble"><gap reason="cancelled" atLeast="7" atMost="10" unit="chars"></gap></del>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag76_periodo6" n="11">
 					Avevo costituito
 					<lb xml:id="pag76-line19" n="41" facs="#pag76_line19"/>
 					un piccolo centro nostro in <date from="--07" to="--08">luglio-agosto</date><pc>,</pc>
@@ -602,7 +602,7 @@
 					<lb xml:id="pag77-line6" n="50" facs="#pag77_line6"/>
 					anima e <w rend="ink blot">corpo</w><pc>,</pc> si dà alla guerra<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag77_periodo1" n="12">
 					<lb xml:id="pag77-line7" n="51" facs="#pag77_line7"/>
 					Invece <abbr type="initial">L<pc>.</pc>D<pc>.</pc></abbr> venuto una sola volta<pc>,</pc>
 					<lb xml:id="pag77-line8" n="52" facs="#pag77_line8"/>
@@ -624,7 +624,7 @@
 					<lb xml:id="pag77-line12" n="56" facs="#pag77_line12"/>
 					di bruciare gli stampati comunisti<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag77_periodo2" n="13">
 					<lb xml:id="pag77-line13" n="57" facs="#pag77_line13"/>
 					Ho fatto fatica a persuadere 
 					<lb xml:id="pag77-line14" n="58" facs="#pag77_line14"/>
@@ -632,15 +632,15 @@
 					<lb xml:id="pag77-line15" n="59" facs="#pag77_line15"/>
 					la personalità del <abbr type="suspension">P</abbr><pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag77_periodo3" n="14">
 					Oggi riferivo
 					<lb xml:id="pag77-line16" n="60" facs="#pag77_line16"/>
 					questo a <abbr type="initial">G</abbr><pc>:</pc> con lui si diceva che il
 					<lb xml:id="pag77-line17" n="61" facs="#pag77_line17"/>
 					nostro programma è più adatto alle
 					<lb xml:id="pag77-line18" n="62" facs="#pag77_line18"/>
-					condizioni dell'<country>Italia</country><pc>;</pc> ufficiali<pc>,</pc> bor<pc>=</pc>
-					<lb xml:id="pag77-line19" n="63" facs="#pag77_line19"/>
+					condizioni dell'<country>Italia</country><pc>;</pc> ufficiali<pc>,</pc> bor<pc type="return">=</pc>
+					<lb xml:id="pag77-line19" n="63" facs="#pag77_line19" break="no"/>
 					ghesi<pc>,</pc> <del type="truncation" rend="overstrike">conta</del> parte dei contadini <del type="truncation" rend="overstrike">pa</del> ci
 					<lb xml:id="pag77-line20" n="64" facs="#pag77_line20"/>
 					seguono<pc>,</pc> ma la nostra classe dirigente
@@ -653,9 +653,9 @@
 				<pb facs="#pag78" n="78" />
 				
 				<lb xml:id="pag78-line1" n="67" facs="#pag78_line1"/>
-				<ab type="dateline" xml:id="dlpag78"><date when="---18">18</date></ab>
+				<ab type="dateline" xml:id="dlpag78" n="15"><date when="---18">18</date></ab>
 				<certainty target="#dlpag78" locus="name"><desc>Riteniamo che questo numero possa essere una data in quanto a pagina 70 della fonte si trova il numero 16, a pagina 78 si passa direttamente al numero 18 e nel primo paragrafo l’autore dichiara di non aver scritto nulla il giorno precedente; questo spiegherebbe la mancanza del 17, confermando l’ipotesi che si tratti del giorno del mese in cui scrive.</desc></certainty>
-				<ab>
+				<ab type="period" xml:id="pag78_periodo1" n="16">
 					<lb xml:id="pag78-line2" n="68" facs="#pag78_line2"/>
 					Ieri non scrissi niente 
 					<choice>
@@ -668,19 +668,19 @@
 					<lb xml:id="pag78-line4" n="70" facs="#pag78_line4"/>
 					di scrivere<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag78_periodo2" n="17">
 					Mi trovai bene con
 					<lb xml:id="pag78-line5" n="71" facs="#pag78_line5"/>
 					<abbr type="initial">F<pc>.</pc></abbr><del rend="scribble"><gap reason="illegible"></gap></del><pc>,</pc> nella mattina<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag78_periodo3" n="18">
 					Vidi anche
 					<lb xml:id="pag78-line6" n="72" facs="#pag78_line6"/>
 					<persName>Marcella</persName><pc>:</pc> freddezza dalle sue
 					<lb xml:id="pag78-line7" n="73" facs="#pag78_line7"/>
 					parti<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag78_periodo4" n="19">
 					Mi comunicò di aver
 					<lb xml:id="pag78-line8" n="74" facs="#pag78_line8"/>
 					dovuto distruggere le mie lettere<pc>,</pc>
@@ -691,7 +691,7 @@
 					<lb xml:id="pag78-line11" n="77" facs="#pag78_line11"/>
 					la nostra amicizia e poi i suoi resti<pc>.</pc>
 				</ab> 
-				<ab>
+				<ab type="period" xml:id="pag78_periodo5" n="20">
 					<lb xml:id="pag78-line12" n="78" facs="#pag78_line12"/>
 					Dichiarò di volersi liberare della
 					<lb xml:id="pag78-line13" n="79" facs="#pag78_line13"/>
@@ -699,16 +699,16 @@
 					<lb xml:id="pag78-line14" n="80" facs="#pag78_line14"/>
 					un peso morto e trattò male <abbr type="initial">F</abbr><pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag78_periodo6" n="21">
 					<lb xml:id="pag78-line15" n="81" facs="#pag78_line15"/>
 					Queste sue cattiverie una volta
 					<lb xml:id="pag78-line16" n="82" facs="#pag78_line16"/>
-					mi eccitavano<pc>,</pc> soprattutto se ri<pc>=</pc>
-					<lb xml:id="pag78-line17" n="83" facs="#pag78_line17"/>
+					mi eccitavano<pc>,</pc> soprattutto se ri<pc type="return">=</pc>
+					<lb xml:id="pag78-line17" n="83" facs="#pag78_line17" break="no"/>
 					volte verso di me<pc>:</pc> trovavo
 					<lb xml:id="pag78-line18" n="84" facs="#pag78_line18"/>
-					un piacere sadico nella sua mal<pc>=</pc>
-					<lb xml:id="pag78-line19" n="85" facs="#pag78_line19" />
+					un piacere sadico nella sua mal<pc type="return">=</pc>
+					<lb xml:id="pag78-line19" n="85" facs="#pag78_line19" break="no"/>
 					vagità<pc>,</pc> mi pareva di lottare <w rend="descending" >fisicamente</w>
 					<lb xml:id="pag78-line20" n="86" facs="#pag78_line20"/>
 					con una 
@@ -727,7 +727,7 @@
 					ma questa morbosa passione è finita<pc>.</pc>
 				</ab>
 
-				<ab>
+				<ab type="period" xml:id="pag79_periodo1" n="22">
 					<lb xml:id="pag79-line2" n="90" facs="#pag79_line2"/>
 					Quando uscì<pc>,</pc> <abbr type="initial">F<pc>.</pc></abbr> osservò che 
 					<choice>
@@ -764,11 +764,11 @@
 					<lb xml:id="pag79-line9" n="97" facs="#pag79_line9"/>
 					manca di tutto questo<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag79_periodo2" n="23">
 					<del rend="overstrike" type="truncation">Non vogli</del>
 					<lb xml:id="pag79-line10" n="98" facs="#pag79_line10"/>
-					Sono troppo onesto e troppo intelli<pc>=</pc>
-					<lb xml:id="pag79-line11" n="99" facs="#pag79_line11"/>
+					Sono troppo onesto e troppo intelli<pc type="return">=</pc>
+					<lb xml:id="pag79-line11" n="99" facs="#pag79_line11" break="no"/>
 					gente per ripetere la storia della
 					<lb xml:id="pag79-line12" n="100" facs="#pag79_line12"/>
 					volpe che giudica immatura 
@@ -793,17 +793,17 @@
 					</choice>
 					 non mi vuole<pc>,</pc> ma <del rend="overstrike" type="truncation">dev</del>
 					<lb xml:id="pag79-line16" n="104" facs="#pag79_line16"/>
-					posso ammettere che ora le ri<pc>=</pc>
-					<lb xml:id="pag79-line17" n="105" facs="#pag79_line17"/>
+					posso ammettere che ora le ri<pc type="return">=</pc>
+					<lb xml:id="pag79-line17" n="105" facs="#pag79_line17" break="no"/>
 					conosco dei difetti irritanti che
 					<lb xml:id="pag79-line18" n="106" facs="#pag79_line18"/>
-					qualche mese fa non mi urta<pc>=</pc>
-					<lb xml:id="pag79-line19" n="107" facs="#pag79_line19"/>
-					vano o addirittura mi attira<pc>=</pc>
-					<lb xml:id="pag79-line20" n="108" facs="#pag79_line20"/>
+					qualche mese fa non mi urta<pc type="return">=</pc>
+					<lb xml:id="pag79-line19" n="107" facs="#pag79_line19" break="no"/>
+					vano o addirittura mi attira<pc type="return">=</pc>
+					<lb xml:id="pag79-line20" n="108" facs="#pag79_line20" break="no"/>
 					vano<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag79_periodo3" n="24">
 					<add xml:id="agg_pag79" facs="#aggiunta_pag79" place="inline bottom">
 						Allora scrivevo<pc>:</pc> 
 						<quote>
@@ -814,11 +814,11 @@
 						</quote>
 					</add>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag79_periodo4" n="25">
 					<lb xml:id="pag79-line21" n="109" facs="#pag79_line21"/>
 					Ai <abbr type="suspension">M<pc>.</pc></abbr> ripetei il mio concetto<pc>.</pc>
 				</ab>
-				<ab>
+				<ab type="period" xml:id="pag79_periodo5" n="26">
 					Il
 					<lb xml:id="pag79-line22" n="110" facs="#pag79_line22"/>
 					<orgName>

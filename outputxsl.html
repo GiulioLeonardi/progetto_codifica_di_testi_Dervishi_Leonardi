@@ -4,7 +4,7 @@
       <title>
 					Versione elettronica degli scritti autografi di Emanuele Artom
 				</title>
-      <link rel="stylesheet" type="text/css" href="stile.css"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="stile.css"><script src="https://code.jquery.com/jquery-3.2.1.js" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" type="text/css" href="stile.css"><script src="javascript.js"></script></head>
    <body>
       <h1>Applicazione web versione elettronica diari di Emanuele Artom</h1>
@@ -41,7 +41,7 @@
                						</p>
          </div>
          <div class="divinternointro">
-            <h3>Informazioni aggiuntive riguardo la codifica del testo</h3>
+            <h3>Informazioni aggiuntive riguardo la codifica del testo:</h3>
             <ul>
                <li>I casi di errori grammaticali o ortografici sono stati riportati sia in forma originale
                   che corretta.</li>
@@ -50,7 +50,7 @@
                <li>Il testo è stato suddiviso in periodi, utilizzando il tag ab.</li>
                <li>Il formato di data utilizzato nell'attributo when è di default AAAA-MM-GG.</li>
                <li>I nomi di persona e di luogo presenti nel testo sono marcati.</li>
-               <li>le date sono state segnalate con il tag date</li>
+               <li>le date sono state segnalate con il tag date.</li>
                <li>I riferimenti degli elementi sono stati realizzati attraverso le coppie di attributi
                   xml:id e ref.</li>
             </ul>
@@ -58,8 +58,18 @@
       </div>
       <div id="div_bottoni">
          <p><b>Seleziona pagina:</b></p>
-         <div id="bottoni_sel_pag" class="btn-group" role="group" aria-label="Basic example"><button type="button" class="btn btn-secondary">75</button><button type="button" class="btn btn-secondary">76</button><button type="button" class="btn btn-secondary">77</button><button type="button" class="btn btn-secondary">78</button><button type="button" class="btn btn-secondary">79</button></div>
+         <div id="bottoni_sel_pag" class="btn-group" role="group" aria-label="Basic example"><button type="button" onclick="jump_to(dip75)" class="btn btn-secondary">75</button><button type="button" onclick="jump_to(dip76)" class="btn btn-secondary">76</button><button type="button" onclick="jump_to(dip77)" class="btn btn-secondary">77</button><button type="button" onclick="jump_to(dip78)" class="btn btn-secondary">78</button><button type="button" onclick="jump_to(dip79)" class="btn btn-secondary">79</button></div>
       </div>
+      <div id="legenda">
+         <div id="testo_legenda">
+            <p><mark class="gap">\\\</mark> : mancanze di trascrizione del testo</p>
+            <p><strike class="del">abc</strike> : cancellature</p>
+            <p><mark class="distinct">abc</mark> : parole arcaiche</p>
+            <p><mark class="sic">abc</mark> : errori (puntare con il mouse per mostrare la correzione)</p>
+            <p><span class="add">abc</span> : aggiunte testuali</p>
+            <p><mark class="unclear">abc</mark> : testo non completamente chiaro</p>
+            <p><u class="abbr">abc</u> : abbreviazioni con forma completa (puntare con il mouse)</p>
+         </div><button id="btn_mostra_legenda" class="btn btn-secondary" onclick="mostra_legenda()">Mostra legenda</button></div>
       <div id="principale">
          <div class="trascr_pag">
             <h3 id="iniz_75" class="iniz_pag">Inizio pagina 75:
@@ -68,7 +78,7 @@
             					
             					<strike class=".del"><mark class="gap">\\\</mark> </strike> parte delle bande e taccio
             					
-            					quelli ideali: non so bene il
+            					<mark class="unclear">quelli</mark> ideali: non so bene il
             					
             					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span>
             					, ma mi vergogno di 
@@ -82,11 +92,11 @@
                							
                						</span> 
             					
-            					rettorica patriottica e politica 
+            					<mark class="distinct">rettorica</mark> patriottica e politica 
             					
             					inibiscono di parlare di questi 
             					
-            					argomenti con fresca e sponta=
+            					argomenti con fresca e sponta<mark class="return"></mark>
             					
             					nea semplicità.
             				
@@ -100,17 +110,17 @@
             					
             					scorso, causa ed effetto insieme
             					
-            					del concetto romantico e mazzi=
+            					del concetto romantico e mazzi<mark class="return"></mark>
             					
             					niano delle nazioni che hanno 
             					
             					una missione da svolgere, è
             					
             					ormai tramontato.
-            				 
+            				
             					Non abbiamo,
             					
-            					che io sappia, poeti della rivo=
+            					che io sappia, poeti della rivo<mark class="return"></mark>
             					
             					luzione, ma oggi nessuno oserebbe,
             					
@@ -118,16 +128,11 @@
                					
                					chiarare</strike>: predicare:
             					
-            					
-            							L’unione e l’amore
-            							
-            							rivelano ai popoli
-            							
-            							le vie del Signore
-            						
-            							Canto nazionale
-            							Goffredo Mameli
-            						
+            					<span class="cit">
+               <p class="l">L’unione e l’amore</p>
+               <p class="l">rivelano ai popoli</p>
+               <p class="l">le vie del Signore</p>
+               <p class="bibl">(Canto nazionale, Goffredo Mameli)</p></span>
             					 <strike class=".del">e to</strike> oppure
             				
             <h3 id="iniz_76" class="iniz_pag">Inizio pagina 76:</h3>
@@ -140,12 +145,12 @@
             					
             					gli da'.
             				
-            					Con quell’evangelico: in ve=
+            					Con quell’evangelico: in ve<mark class="return"></mark>
             					
             					rità 
-            					<span class="choice_sic_corr"><mark class="sic">Il</mark><mark class="corr">il</mark></span> lato deteriore di questo mi=
+            					<span class="choice_sic_corr"><mark class="sic">Il</mark><mark class="corr">il</mark></span> lato deteriore di questo mi<mark class="return"></mark>
             					
-            					sticismo, cioè : la teoria eroica di
+            					sticismo, cioè: la teoria eroica di
             					
             					D’Annunzio è apertamente criticata.
             				
@@ -154,7 +159,7 @@
             					
             					ufficiali il Comandante citava il
             					
-            					motto Ardisco non ordisco coman=
+            					motto Ardisco non ordisco coman<mark class="return"></mark>
             					
             					dando di ardire il meno possibile,
             					
@@ -195,7 +200,7 @@
             					
             <h3 id="iniz_77" class="iniz_pag">Inizio pagina 77:</h3>
             					
-            					assunto la direzione del movimento
+            					<mark class="unclear">assunto</mark> la direzione del movimento
             					
             					e si sono imposti sia col loro ardimento
             					
@@ -235,7 +240,7 @@
             					
             					nostro programma è più adatto alle
             					
-            					condizioni dell'Italia; ufficiali, bor=
+            					condizioni dell'Italia; ufficiali, bor<mark class="return"></mark>
             					
             					ghesi, <strike class=".del">conta</strike> parte dei contadini <strike class=".del">pa</strike> ci
             					
@@ -243,13 +248,10 @@
             					
             					è priva di decisione, priva di fede
             					
-            					vera.
+            					<mark class="unclear">vera</mark>.
             				
-            <h3 id="iniz_78" class="iniz_pag">Inizio pagina 78:</h3>18Riteniamo che questo numero possa essere una data in quanto a pagina 70 della fonte
-            si trova il numero 16, a pagina 78 si passa direttamente al numero 18 e nel primo
-            paragrafo l’autore dichiara di non aver scritto nulla il giorno precedente; questo
-            spiegherebbe la mancanza del 17, confermando l’ipotesi che si tratti del giorno del
-            mese in cui scrive.
+            <h3 id="iniz_78" class="iniz_pag">Inizio pagina 78:</h3>
+            <p class="dateline">18</p>
             					
             					Ieri non scrissi niente 
             					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span> 
@@ -289,11 +291,11 @@
             					
             					Queste sue cattiverie una volta
             					
-            					mi eccitavano, soprattutto se ri=
+            					mi eccitavano, soprattutto se ri<mark class="return"></mark>
             					
             					volte verso di me: trovavo
             					
-            					un piacere sadico nella sua mal=
+            					un piacere sadico nella sua mal<mark class="return"></mark>
             					
             					vagità, mi pareva di lottare fisicamente
             					
@@ -336,7 +338,7 @@
             				
             					<strike class=".del">Non vogli</strike>
             					
-            					Sono troppo onesto e troppo intelli=
+            					Sono troppo onesto e troppo intelli<mark class="return"></mark>
             					
             					gente per ripetere la storia della
             					
@@ -353,13 +355,13 @@
             					<span class="choice_abbr_expan"><u class="abbr">M.</u><mark class="expan">Marcella</mark></span>
             					 non mi vuole, ma <strike class=".del">dev</strike>
             					
-            					posso ammettere che ora le ri=
+            					posso ammettere che ora le ri<mark class="return"></mark>
             					
             					conosco dei difetti irritanti che
             					
-            					qualche mese fa non mi urta=
+            					qualche mese fa non mi urta<mark class="return"></mark>
             					
-            					vano o addirittura mi attira=
+            					vano o addirittura mi attira<mark class="return"></mark>
             					
             					vano.
             				
@@ -396,5 +398,8 @@
                <h4>Immagine pagina 79</h4><img class="img_pag" src="79.jpeg"></div>
          </div>
       </div>
+      <footer>
+         <p id="p_footer">2022-2023</p>
+      </footer>
    </body>
 </html>

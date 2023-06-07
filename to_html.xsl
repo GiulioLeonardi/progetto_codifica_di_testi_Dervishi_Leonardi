@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:tei="http://www.tei-c.org/ns/1.0">
+                
     <xsl:output method="html" encoding="UTF-8" indent="yes" />
+
     
     
     
@@ -16,7 +18,7 @@
                 <link rel="stylesheet" type="text/css" href="stile.css" />
                 
                 <!-- jquery e bootstrap -->
-                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.2.1.js" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
@@ -33,7 +35,7 @@
                     <xsl:apply-templates select="//tei:fileDesc"/>
 
                     <div class='divinternointro'>
-                        <h3>Informazioni aggiuntive riguardo la codifica del testo</h3>
+                        <h3>Informazioni aggiuntive riguardo la codifica del testo:</h3>
                         <ul>
                             <xsl:apply-templates select="//tei:encodingDesc//[tei:editorialDecl | tei:refsDecl]"/>
                         </ul>
@@ -43,12 +45,25 @@
                 <div id='div_bottoni'>
                     <p><b>Seleziona pagina:</b></p>
                     <div id='bottoni_sel_pag' class="btn-group" role="group" aria-label="Basic example">
-                        <button type="button" class="btn btn-secondary">75</button>
-                        <button type="button" class="btn btn-secondary">76</button>
-                        <button type="button" class="btn btn-secondary">77</button>
-                        <button type="button" class="btn btn-secondary">78</button>
-                        <button type="button" class="btn btn-secondary">79</button>
+                        <button type="button" onclick='jump_to(dip75)' class="btn btn-secondary">75</button>
+                        <button type="button" onclick='jump_to(dip76)' class="btn btn-secondary">76</button>
+                        <button type="button" onclick='jump_to(dip77)' class="btn btn-secondary">77</button>
+                        <button type="button" onclick='jump_to(dip78)' class="btn btn-secondary">78</button>
+                        <button type="button" onclick='jump_to(dip79)' class="btn btn-secondary">79</button>
                     </div>
+                </div>
+
+                <div id='legenda'>
+                    <div id='testo_legenda'>
+                        <p><mark class='gap'>\\\</mark> : mancanze di trascrizione del testo</p>
+                        <p><strike class='del'>abc</strike> : cancellature</p>
+                        <p><mark class='distinct'>abc</mark> : parole arcaiche</p>
+                        <p><mark class='sic'>abc</mark> : errori (puntare con il mouse per mostrare la correzione)</p>
+                        <p><span class='add'>abc</span> : aggiunte testuali</p>
+                        <p><mark class='unclear'>abc</mark> : testo non completamente chiaro</p>
+                        <p><u class='abbr'>abc</u> : abbreviazioni con forma completa (puntare con il mouse)</p>
+                    </div>
+                    <button id='btn_mostra_legenda' class='btn btn-secondary' onclick='mostra_legenda()'>Mostra legenda</button>
                 </div>
 
                 <div id='principale'>
@@ -84,6 +99,11 @@
                         </div>
                     </div>
                 </div>
+
+                <footer>
+                    <p id='p_footer'>2022-2023</p>
+                
+                </footer>
                 
             </body>
         </html>
@@ -98,7 +118,7 @@
     <!-- editionStmt -->
     <xsl:template match="tei:editionStmt" mode="#default">
         <p>Realizzato da: <b><xsl:value-of select="//tei:name[(@xml:id='ID')]"/>, <xsl:value-of select="//tei:name[(@xml:id='GL')]"/>.</b></p>
-        <p>Coordinamento: <b><xsl:apply-templates select="//tei:name[(@xml:id='ADG')]"/>.</b></p>
+        <p>Coordinamento: <b><xsl:value-of select="//tei:name[(@xml:id='ADG')]"/>.</b></p>
         <p><xsl:value-of select="//tei:edition"/></p>
     </xsl:template>
 
@@ -194,6 +214,10 @@
         </span>
     </xsl:template>
 
+    <xsl:template match="tei:unclear" mode="#default">
+        <mark class='unclear'><xsl:value-of select="."/></mark>
+    </xsl:template>
+
     
     <xsl:template match="tei:choice/tei:abbr" mode="#default">
         <span class='choice_abbr_expan'>
@@ -202,8 +226,14 @@
         </span>
     </xsl:template>
 
-    <xsl:template match="tei:expan" mode="#default">
-        
+        <xsl:template match="tei:expan" mode="#default">
+            
+        </xsl:template>
+
+    
+
+    <xsl:template match="tei:distinct" mode="#default">
+        <mark class='distinct'><xsl:value-of select="."/></mark>
     </xsl:template>
 
 
@@ -218,10 +248,52 @@
         </span>
     </xsl:template>
 
-    
-    <xsl:template match="tei:corr" mode="#default">
-        
+        <xsl:template match="tei:corr" mode="#default">
+            
+        </xsl:template>
+
+
+    <xsl:template match="tei:cit/tei:quote" mode="#default">
+        <span class='cit'>
+            <xsl:apply-templates select="tei:l"/>
+            <p class='bibl'>(<xsl:value-of select="following-sibling::tei:bibl/tei:title"/>, <xsl:value-of select="following-sibling::tei:bibl/tei:author"/>)</p>
+        </span>    
     </xsl:template>
+
+        <xsl:template match="tei:l" mode="#default">
+            <p class='l'><xsl:value-of select="."/></p>
+        </xsl:template>
+
+        <xsl:template match="tei:bibl" mode="#default">
+        
+        </xsl:template>
+
+    <xsl:template match="tei:ab[@type='dateline']" mode="#default">
+        <p class='dateline'><xsl:value-of select="."/></p>
+    </xsl:template>
+
+        <xsl:template match="tei:certainty" mode="#default">
+            
+        </xsl:template>
+
+
+    
+
+    
+    
+
+    <xsl:template match="tei:pc[@type='return']" mode="#default">
+        <mark class='return'></mark>
+    </xsl:template>
+
+
+
+    
+
+
+
+    
+    
 
 
     

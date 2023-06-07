@@ -1,0 +1,405 @@
+<!DOCTYPE HTML><html xmlns:tei="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>
+					Versione elettronica degli scritti autografi di Emanuele Artom
+				</title>
+      <link rel="stylesheet" type="text/css" href="stile.css"><script src="https://code.jquery.com/jquery-3.2.1.js" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" type="text/css" href="stile.css"><script src="javascript.js"></script></head>
+   <body>
+      <h1>Applicazione web versione elettronica diari di Emanuele Artom</h1>
+      <div id="introduction">
+         <h2>Descrizione della versione elettronica</h2>
+         <p>Titolo: <b>
+               					Versione elettronica degli scritti autografi di Emanuele Artom
+               				</b></p>
+         <p>Realizzato da: <b>Ilaria Dervishi, Giulio Leonardi.</b></p>
+         <p>Coordinamento: <b>Angelo Mario Del Grosso.</b></p>
+         <p>
+            					Progetto realizzato come esame per il corso di Codifica di Testi 2022/2023.
+            				</p>
+         <p>
+            Informazioni pubblicazione: 
+            <b>Università di Pisa, 
+               2023, 
+               Opera pubblica ad accesso libero.
+               </b></p><button id="btn_mostra_info" class="btn btn-secondary" onclick="mostra_altro()">Mostra altro</button><div id="sourceDesc" class="divinternointro">
+            <h3>Descrizione della fonte:</h3>
+            <p>
+               Luogo: <b>Milano, Italia</b> 
+               | Archivio: <b><a href="http://digital-library.cdec.it/cdec-web/">Centro di documentazione ebraica contemporanea</a></b>
+               | Id: <b>ST0003-000006</b></p>
+            <p>
+               Autore: <b>Emanuele Artom</b> | Titolo dell'opera: <b>Raccolta degli scritti autografi di Emanuele Artom</b> | Lingua: <b>Italiano</b></p>
+            <p>Estensione: 174 pagine totali; 172 dei diari di Emanuele Artom, 2 della lettera originale della
+               madre Amalia.</p>
+            <p>Materiale: Fogli di carta</p>
+            <p>Layout: Normalmente ogni pagina è formata da un'unica colonna e da 22 righe.</p>
+            <p>Origine del manoscritto: 
+               							I diari sono stati scritti da Emanuele Artom durante la sua esperienza partigiata
+               tra il 1943 e il 1944.
+               						</p>
+         </div>
+         <div class="divinternointro">
+            <h3>Informazioni aggiuntive riguardo la codifica del testo:</h3>
+            <ul>
+               <li>I casi di errori grammaticali o ortografici sono stati riportati sia in forma originale
+                  che corretta.</li>
+               <li>I segni di punteggiatura del testo sono stati interamente preservati.</li>
+               <li>L'originale suddivisione delle parole nei ritorni a capo è stata preservata.</li>
+               <li>Il testo è stato suddiviso in periodi, utilizzando il tag ab.</li>
+               <li>Il formato di data utilizzato nell'attributo when è di default AAAA-MM-GG.</li>
+               <li>I nomi di persona e di luogo presenti nel testo sono marcati.</li>
+               <li>le date sono state segnalate con il tag date.</li>
+               <li>I riferimenti degli elementi sono stati realizzati attraverso le coppie di attributi
+                  xml:id e ref.</li>
+            </ul>
+         </div>
+      </div>
+      <div id="div_bottoni">
+         <p><b>Seleziona pagina:</b></p>
+         <div id="bottoni_sel_pag" class="btn-group" role="group" aria-label="Basic example"><button type="button" onclick="jump_to(dip75)" class="btn btn-secondary">75</button><button type="button" onclick="jump_to(dip76)" class="btn btn-secondary">76</button><button type="button" onclick="jump_to(dip77)" class="btn btn-secondary">77</button><button type="button" onclick="jump_to(dip78)" class="btn btn-secondary">78</button><button type="button" onclick="jump_to(dip79)" class="btn btn-secondary">79</button></div>
+      </div>
+      <div id="legenda">
+         <div id="testo_legenda">
+            <p><mark class="gap">\\\</mark> : mancanze di trascrizione del testo</p>
+            <p><strike class="del">abc</strike> : cancellature</p>
+            <p><strike class="disinct">abc</strike> : parole arcaiche</p>
+            <p><mark class="sic">abc</mark> : errori (puntare con il mouse per mostrare la correzione)</p>
+            <p><span class="add">abc</span> : aggiunte testuali</p>
+            <p><mark class="unclear">abc</mark> : testo non completamente chiaro</p>
+            <p><u class="abbr">abc</u> : abbreviazioni con forma completa (puntare con il mouse)</p>
+         </div><button id="btn_mostra_legenda" class="btn btn-secondary" onclick="mostra_legenda()">Mostra legenda</button></div>
+      <div id="principale">
+         <div class="trascr_pag">
+            <h3 id="iniz_75" class="iniz_pag">Inizio pagina 75:
+               
+               </h3>
+            					
+            					<strike class=".del"><mark class="gap">\\\</mark> </strike> parte delle bande e taccio
+            					
+            					<mark class="unclear">quelli</mark> ideali: non so bene il
+            					
+            					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span>
+            					, ma mi vergogno di 
+            					
+            					parlarne.
+            				
+            					Forse tanti 
+            					<strike class=".del"><mark class="gap">\\\</mark>
+               							 di
+               						</strike><span class="add"><mark class="gap">\\\</mark>
+               							
+               						</span> 
+            					
+            					<mark class="distinct">rettorica</mark> patriottica e politica 
+            					
+            					inibiscono di parlare di questi 
+            					
+            					argomenti con fresca e sponta<mark class="return"></mark>
+            					
+            					nea semplicità.
+            				
+            					Eppure anche 
+            					
+            					in questo campo si fanno grandi 
+            					
+            					progressi.
+            				
+            					Il misticismo del secolo 
+            					
+            					scorso, causa ed effetto insieme
+            					
+            					del concetto romantico e mazzi<mark class="return"></mark>
+            					
+            					niano delle nazioni che hanno 
+            					
+            					una missione da svolgere, è
+            					
+            					ormai tramontato.
+            				
+            					Non abbiamo,
+            					
+            					che io sappia, poeti della rivo<mark class="return"></mark>
+            					
+            					luzione, ma oggi nessuno oserebbe,
+            					
+            					in questo secolo di miscredenti, <strike class=".del">di=
+               					
+               					chiarare</strike>: predicare:
+            					
+            					<span class="cit">
+               <p class="l">L’unione e l’amore</p>
+               <p class="l">rivelano ai popoli</p>
+               <p class="l">le vie del Signore</p>
+               <p class="bibl">(Canto nazionale, Goffredo Mameli)</p></span>
+            					 <strike class=".del">e to</strike> oppure
+            				
+            <h3 id="iniz_76" class="iniz_pag">Inizio pagina 76:</h3>
+            					
+            					E vi dico in verità: 
+            					<span class="choice_sic_corr"><mark class="sic">Quando</mark><mark class="corr">quando</mark></span> 
+            					il po<mark class="gap">\\\</mark>sta
+            					
+            					<mark class="gap">\\\</mark>si mette alla sua testa ha una folgore
+            					
+            					gli da'.
+            				
+            					Con quell’evangelico: in ve<mark class="return"></mark>
+            					
+            					rità 
+            					<span class="choice_sic_corr"><mark class="sic">Il</mark><mark class="corr">il</mark></span> lato deteriore di questo mi<mark class="return"></mark>
+            					
+            					sticismo, cioè: la teoria eroica di
+            					
+            					D’Annunzio è apertamente criticata.
+            				
+            					
+            					L’altra settimana in un rapporto di
+            					
+            					ufficiali il Comandante citava il
+            					
+            					motto Ardisco non ordisco coman<mark class="return"></mark>
+            					
+            					dando di ardire il meno possibile,
+            					
+            					pur di raggiungere lo scopo, ma 
+            					
+            					di non fare dell’ardimento il proprio
+            					
+            					scopo.
+            				
+            					Tornando al primo discorso,
+            					
+            					spero di potermi <strike class=".del">farmi</strike> unire almeno a
+            					
+            					papà, quando sarò nella nuova
+            					
+            					formazione.
+            				 
+            					Il 
+            					
+            						<span class="choice_abbr_expan"><u class="abbr">P.d.A</u><mark class="expan">Partito d'Azione</mark></span>
+            					 
+            					si trova nel
+            					
+            					solito contrasto col Com anche nel piccolo
+            					
+            					settore di Ca<strike class=".del"><mark class="gap">\\\</mark></strike>
+            				
+            					Avevo costituito
+            					
+            					un piccolo centro nostro in luglio-agosto,
+            					
+            					con <strike class=".del">parecchi</strike> quattro o cinque aderenti,
+            					
+            					che ora sono tra i giovani più attivi,
+            					
+            					ma alla mia partenza i com hanno
+            
+            					
+            <h3 id="iniz_77" class="iniz_pag">Inizio pagina 77:</h3>
+            					
+            					<mark class="unclear">assunto</mark> la direzione del movimento
+            					
+            					e si sono imposti sia col loro ardimento
+            					
+            					e il loro spirito organizzativo, sia 
+            					
+            					approfittando della pochezza dei nostri
+            					
+            					capi: c’è un certo Camandona che,
+            					
+            					anima e corpo, si dà alla guerra.
+            				
+            					
+            					Invece L.D. venuto una sola volta,
+            					
+            					ha fatto una pessima figura 
+            					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span>
+            					
+            					non aveva denari per tornare a casa e
+            					
+            					ha dovuto farseli imprestare ➖
+            					<span class="choice_sic_corr"><mark class="sic">nè</mark><mark class="corr">né</mark></span> li
+            					
+            					ha più restituiti sia consigliando
+            					
+            					di bruciare gli stampati comunisti.
+            				
+            					
+            					Ho fatto fatica a persuadere 
+            					
+            					Ga a non giudicare da lui tutta
+            					
+            					la personalità del P.
+            				
+            					Oggi riferivo
+            					
+            					questo a G: con lui si diceva che il
+            					
+            					nostro programma è più adatto alle
+            					
+            					condizioni dell'Italia; ufficiali, bor<mark class="return"></mark>
+            					
+            					ghesi, <strike class=".del">conta</strike> parte dei contadini <strike class=".del">pa</strike> ci
+            					
+            					seguono, ma la nostra classe dirigente
+            					
+            					è priva di decisione, priva di fede
+            					
+            					<mark class="unclear">vera</mark>.
+            				
+            <h3 id="iniz_78" class="iniz_pag">Inizio pagina 78:</h3>
+            <p class="dateline">18</p>
+            					
+            					Ieri non scrissi niente 
+            					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span> 
+            					andai a
+            					
+            					T. P: quando viaggio non ho tempo
+            					
+            					di scrivere.
+            				
+            					Mi trovai bene con
+            					
+            					F.<strike class=".del"><mark class="gap">\\\</mark></strike>, nella mattina.
+            				
+            					Vidi anche
+            					
+            					Marcella: freddezza dalle sue
+            					
+            					parti.
+            				
+            					Mi comunicò di aver
+            					
+            					dovuto distruggere le mie lettere,
+            					
+            					con suo rincrescimento; ma forse
+            					
+            					è un simbolo: prima ha distrutto
+            					
+            					la nostra amicizia e poi i suoi resti.
+            				
+            					
+            					Dichiarò di volersi liberare della
+            					
+            					mamma e della zia, che sono
+            					
+            					un peso morto e trattò male F.
+            				
+            					
+            					Queste sue cattiverie una volta
+            					
+            					mi eccitavano, soprattutto se ri<mark class="return"></mark>
+            					
+            					volte verso di me: trovavo
+            					
+            					un piacere sadico nella sua mal<mark class="return"></mark>
+            					
+            					vagità, mi pareva di lottare fisicamente
+            					
+            					con una 
+            					<strike class=".del">donna forte e</strike><span class="add">amazzone</span>
+            					 spietata e 
+            					
+            					violenta, che impiegasse su di me
+            					
+            					tutte le sue forze senza riguardo,
+            
+            					
+            <h3 id="iniz_79" class="iniz_pag">Inizio pagina 79:</h3>
+            					
+            					ma questa morbosa passione è finita.
+            				
+            					
+            					Quando uscì, F. osservò che 
+            					<span class="choice_abbr_expan"><u class="abbr">M.</u><mark class="expan">Marcella</mark></span>
+            					 è sempre
+            					
+            					sicura di 
+            					<span class="choice_sic_corr"><mark class="sic">sè</mark><mark class="corr">sé</mark></span>
+            					, piena di energia e io
+            					
+            					lamentai che mancasse di spiritualità
+            					
+            					il che coincide, 
+            					<span class="choice_sic_corr"><mark class="sic">perchè</mark><mark class="corr">perché</mark></span> 
+            					la spiritualità
+            					
+            					sorge dal tormento interno, dal 
+            					
+            					dubbio, dal rimorso, dalla voce
+            					
+            					della coscienza che si sdoppia: 
+            					<span class="choice_abbr_expan"><u class="abbr">M.</u><mark class="expan">Marcella</mark></span>
+            					
+            					manca di tutto questo.
+            				
+            					<strike class=".del">Non vogli</strike>
+            					
+            					Sono troppo onesto e troppo intelli<mark class="return"></mark>
+            					
+            					gente per ripetere la storia della
+            					
+            					volpe che giudica immatura 
+            					
+            					l'uva che non sa raggiungere:
+            					
+            					<strike class=".del">Dichia</strike> 
+            					<span class="choice_sic_corr"><mark class="sic">Mi</mark><mark class="corr">mi</mark></span>
+            					 ridico che non sposo 
+            					 <span class="choice_abbr_expan"><u class="abbr">M.</u><mark class="expan">Marcella</mark></span>
+            					
+            					perchè 
+            					<span class="choice_abbr_expan"><u class="abbr">M.</u><mark class="expan">Marcella</mark></span>
+            					 non mi vuole, ma <strike class=".del">dev</strike>
+            					
+            					posso ammettere che ora le ri<mark class="return"></mark>
+            					
+            					conosco dei difetti irritanti che
+            					
+            					qualche mese fa non mi urta<mark class="return"></mark>
+            					
+            					vano o addirittura mi attira<mark class="return"></mark>
+            					
+            					vano.
+            				
+            					<span class="add">
+               						Allora scrivevo: 
+               						
+               							Quando mi chiedi, 
+               							amore, se ti sposo, Sono un meschino che
+               							muore di sete E m'offri un frutto fresco
+               							e velenoso.
+               						
+               					</span>
+            				
+            					
+            					Ai M. ripetei il mio concetto.
+            				
+            					Il
+            					
+            					
+            						<span class="choice_abbr_expan"><u class="abbr">P.d.A</u><mark class="expan">Partito d'Azione</mark></span>
+            					  
+            					deve essere un partito di
+            				</div>
+         <div class="div_graf">
+            <div class="div_img_pag" id="dip75">
+               <h4>Immagine pagina 75</h4><img class="img_pag" src="75.jpg"></div>
+            <div class="div_img_pag" id="dip76">
+               <h4>Immagine pagina 76</h4><img class="img_pag" src="76.jpeg"></div>
+            <div class="div_img_pag" id="dip77">
+               <h4>Immagine pagina 77</h4><img class="img_pag" src="77.jpg"></div>
+            <div class="div_img_pag" id="dip78">
+               <h4>Immagine pagina 78</h4><img class="img_pag" src="78.jpg"></div>
+            <div class="div_img_pag" id="dip79">
+               <h4>Immagine pagina 79</h4><img class="img_pag" src="79.jpeg"></div>
+         </div>
+      </div>
+      <footer>
+         <p id="p_footer">2022-2023</p>
+      </footer>
+   </body>
+</html>
