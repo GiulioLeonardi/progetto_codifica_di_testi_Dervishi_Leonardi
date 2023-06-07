@@ -434,7 +434,7 @@
 				<pb facs="#pag75" n="75"/>
 				<ab type="period" xml:id="pag75_periodo1" n="1">
 					<lb xml:id="pag75-line1" n="1" facs="#pag75_line1"/>
-					<del hand="#EA"> <gap reason="cancelled" atLeast="4" atMost="6" unit="chars"/></del> parte delle bande e taccio
+					<del> <gap reason="cancelled" atLeast="4" atMost="6" unit="chars"/></del> parte delle bande e taccio
 					<lb xml:id="pag75-line2" n="2" facs="#pag75_line2"/>
 					<unclear reason="ink blot" cert="high">quelli</unclear> ideali<pc>:</pc> non so bene il
 					<lb xml:id="pag75-line3" n="3" facs="#pag75_line3"/>
@@ -492,7 +492,7 @@
 					<lb xml:id="pag75-line17" n="17" facs="#pag75_line17" break="no"/>
 					luzione<pc>,</pc> ma oggi nessuno oserebbe<pc>,</pc>
 					<lb xml:id="pag75-line18" n="18" facs="#pag75_line18"/>
-					in questo secolo di miscredenti<pc>,</pc> <del rend="overstrike" hand="#EA">di<pc type="return">=</pc>
+					in questo secolo di miscredenti<pc>,</pc> <del rend="overstrike">di<pc type="return">=</pc>
 					<lb xml:id="pag75-line19" n="19" facs="#pag75_line19" break="no"/>
 					chiarare</del><pc>:</pc> predicare<pc>:</pc>
 					<lb xml:id="pag75-line20" n="20" facs="#pag75_line20"/>
@@ -509,7 +509,7 @@
 							<author><persName ref="#GM">Goffredo Mameli</persName></author>
 						</bibl>
 					</cit>
-					 <del rend="overstrike" hand="#EA">e to</del> oppure
+					 <del rend="overstrike">e to</del> oppure
 				</ab>
 				<pb facs="#pag76" n="76"/>
 				<ab type="period" xml:id="pag76_periodo1" n="6">
@@ -557,7 +557,7 @@
 				<ab type="period" xml:id="pag76_periodo4" n="9">
 					Tornando al primo discorso<pc>,</pc>
 					<lb xml:id="pag76-line14" n="36" facs="#pag76_line14"/>
-					spero di potermi <del rend="overstrike" hand="#EA">farmi</del> unire almeno a
+					spero di potermi <del rend="overstrike">farmi</del> unire almeno a
 					<lb xml:id="pag76-line15" n="37" facs="#pag76_line15"/>
 					papà<pc>,</pc> quando sarò nella nuova
 					<lb xml:id="pag76-line16" n="38" facs="#pag76_line16"/>
@@ -582,7 +582,7 @@
 					<lb xml:id="pag76-line19" n="41" facs="#pag76_line19"/>
 					un piccolo centro nostro in <date from="--07" to="--08">luglio-agosto</date><pc>,</pc>
 					<lb xml:id="pag76-line20" n="42" facs="#pag76_line20"/>
-					con <del rend="overstrike" hand="#EA">parecchi</del> quattro o cinque aderenti<pc>,</pc>
+					con <del rend="overstrike">parecchi</del> quattro o cinque aderenti<pc>,</pc>
 					<lb xml:id="pag76-line21" n="43" facs="#pag76_line21"/>
 					che ora sono tra i giovani più attivi<pc>,</pc>
 					<lb xml:id="pag76-line22" n="44" facs="#pag76_line22"/>
